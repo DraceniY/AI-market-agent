@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_kCoUmxbjRiSZuH_JIYsHZQ",
+          "status": "success",
+          "content": [
+            {
+              "text": "CUSTOMER FEEDBACK 1:\nTitle: Amazon.com: Adidas Samba\nContent: Discover the classic Adidas Samba , a timeless soccer-inspired sneaker now a lifestyle staple. Featuring soft leather, suede overlays, and a durable rubber sole.\nSource: https://www.amazon.com/adidas-samba/s?k=adidas+samba\n\nCUSTOMER FEEDBACK 2:\nTitle: adidas Samba | Designer Sneakers for Men | FARFETCH\nContent: Discover the adidas Samba on FARFETCH. Shop Samba OG sneakers in black, white & pink. Enjoy courier returns across Sporty & Rich blue pairs today.\nSource: https://www.Farfetch.com/mc/sets/adidas-samba.aspx\n\nCUSTOMER FEEDBACK 3:\nTitle: Sneaker and Activewear | adidas US\nContent: Explore adidas sneakers for sports and daily wear.\nSource: https://www.adidas.com/us\n\nCUSTOMER FEEDBACK 4:\nTitle: Top 10 Adidas Campus Bad Bunny Sneakers You Need in 2025\nContent: If you're a sneakerhead or just someone who appreciates stylish footwear, the Adidas Campus Bad Bunny collection is a must-see.\nSource: https://d1tf1fh5o5atet.cloudfront.net/article/adidas-campus-bad-bunny\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 2,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:26:41.562989+00:00",
+  "updated_at": "2025-08-27T21:26:41.562994+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll analyze the product data for Nike Air Max sneakers for you. Let me search for the relevant information about pricing, availability, and popularity."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_6Slsx1MeTpSOZfLMt1pSpA",
+          "name": "advanced_product_search",
+          "input": {
+            "query": "Nike Air Max sneakers pricing availability popularity"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 33,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:06:06.809368+00:00",
+  "updated_at": "2025-08-29T18:06:06.809372+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me try one more search to get specific information about the Adidas Gazelle's market position and competitors."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_KL708lC8Q1e4suM6qCk_MQ",
+          "name": "advanced_competitor_search",
+          "input": {
+            "query": "Adidas Gazelle Samba terrace shoes trend market position Reuters 2024"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 37,
+  "redact_message": null,
+  "created_at": "2025-08-29T16:35:20.724608+00:00",
+  "updated_at": "2025-08-29T16:35:20.724617+00:00"
+}

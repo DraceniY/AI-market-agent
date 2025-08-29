@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll analyze the product data for Adidas Samba sneakers for you. Let me search for the relevant information about pricing, availability, and popularity metrics."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_4llDNsZESJ2pbX3WKJgchQ",
+          "name": "product_data_search",
+          "input": {
+            "query": "Adidas Samba sneakers pricing availability popularity"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 11,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:46:12.454972+00:00",
+  "updated_at": "2025-08-27T21:46:12.454977+00:00"
+}

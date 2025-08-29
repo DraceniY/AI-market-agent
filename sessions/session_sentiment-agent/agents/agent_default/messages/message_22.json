@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_8BLY-K9yTku95zbVzZhcpg",
+          "status": "success",
+          "content": [
+            {
+              "text": "CUSTOMER FEEDBACK 1:\nTitle: 6 Adidas Sneaker Styles to Buy in 2025 | Marie Claire\nContent: Move over, Sambas . Adidas has fresh, new styles to shop in 2025. See what's trending in the sneaker world.\nSource: https://www.marieclaire.com/fashion/adidas-sneakers-2025/\n\nCUSTOMER FEEDBACK 2:\nTitle: Adidas Samba real vs fake review . How to spot fake... - YouTube\nContent: # adidas # samba # adidassamba 00:00 - Intro00:15 - The side logos01:41- The other side logos02:16 - The heel03:08 - The outsole04:03 - The shoe front04:29 - Th...\nSource: https://www.youtube.com/watch?v=pxyFsRz4Uqw\n\nCUSTOMER FEEDBACK 3:\nTitle: Samba Shoes | adidas US\nContent: What are adidas Sambas shoes for? The adidas Samba is a soccer shoe first introduced in 1950, designed for training, futsal and street soccer. Its gum rubber outsole with pivot points offers great traction for nimble movements.\nSource: https://www.adidas.com/us/samba\n\nCUSTOMER FEEDBACK 4:\nTitle: adidas Samba | Designer Sneakers for Men | FARFETCH\nContent: Discover the adidas Samba on FARFETCH. Shop Samba OG sneakers in black, white & pink. Enjoy courier returns across Sporty & Rich blue pairs today.\nSource: https://www.Farfetch.com/mc/sets/adidas-samba.aspx\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 22,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:50:03.606381+00:00",
+  "updated_at": "2025-08-27T21:50:03.606385+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me try a more specific search about the Adidas Samba's market position and trends."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_h_rsl13SRFWnDrDlA3Yp8A",
+          "name": "competitor_analysis_search",
+          "input": {
+            "query": "Adidas Samba sneakers fashion trend market analysis 2023 2024 competitors"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 19,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:47:59.216405+00:00",
+  "updated_at": "2025-08-27T21:47:59.216410+00:00"
+}

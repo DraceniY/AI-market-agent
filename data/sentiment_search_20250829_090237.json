@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "search_type": "sentiment_search",
+    "original_query": "Adidas Stan Smith customer reviews sentiment analysis",
+    "timestamp": "2025-08-29T09:02:37.943934",
+    "pwd": "/Users/orchidee/Documents/AI-market-agent/src",
+    "saved_to": "/Users/orchidee/Documents/AI-market-agent/data/sentiment_search_20250829_090237.json"
+  },
+  "search_results": {
+    "queries": [
+      {
+        "search_query": "Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings",
+        "results_count": 10,
+        "results": [
+          {
+            "title": "Stan Smith Shoes | adidas US",
+            "content": "Shop Stan Smith shoes at adidas . Iconic style meets comfort in these classic sneakers, perfect for casual wear and your most fashion-forward outfits.",
+            "url": "https://www.adidas.com/us/stan_smith"
+          },
+          {
+            "title": "1 отзыв на Ботинки adidas Stan Smith Cs Wtr от покупателей OZON",
+            "content": "Оценки и отзывы покупателей, которые заказали Ботинки adidas Stan Smith Cs Wtr в интернет-магазине OZON, помогут сделать вам правильный выбор.",
+            "url": "https://www.OZON.ru/product/botinki-adidas-stan-smith-cs-wtr-2035564415/reviews/"
+          },
+          {
+            "title": "Customer Reviews Sentiment Analysis (Two Different...) | Medium",
+            "content": "The goal of this project is to perform sentiment analysis on a dataset of reviews using two different techniques in Python: VADER (Valence Aware Dictionary and sEntiment Reasoner) and a Roberta…",
+            "url": "https://medium.com/@ahmettsdmr1312/customer-reviews-sentiment-analysis-two-different-techniques-21db5e67627b"
+          },
+          {
+            "title": "adidas Stan Smith Shoes - White | adidas India",
+            "content": "See all the styles and colours of Stan Smith Shoes - White at the official adidas online shop India.",
+            "url": "https://www.adidas.co.in/stan-smith-shoes/IG1323.html"
+          },
+          {
+            "title": "GitHub - norahmhamed/ Customer - Reviews - Sentiment - Analysis",
+            "content": "norahmhamed / Customer - Reviews - Sentiment - Analysis Public.This project showcases an end-to-end sentiment analysis of Amazon product reviews using Python and Power BI. It highlights key insights into customer satisfaction through visual and textual data exploration. Tools Used.",
+            "url": "https://github.com/norahmhamed/Customer-Reviews-Sentiment-Analysis"
+          },
+          {
+            "title": "Kendall Jenner’s Adidas Stan Smith Sneakers Sale – Shop...",
+            "content": "Get the adidas Originals Stan Smith here for $59.95. The tennis shoes are made from full-grain leather and have the classic perforated three stripe details on both sides. The shoes lace up the front and fit snugly, plus, the footbed is lined with fabric for ultimate comfort.",
+            "url": "https://hollywoodlife.com/shop/kendall-jenner-adidas-stan-smith-sneakers-sale-4304522/"
+          },
+          {
+            "title": "How To Analyze Questionnaire Customer Reviews With AI? | Anecdote",
+            "content": "The first step in analyzing customer reviews with AI is collecting and preparing the data. This involves gathering customer reviews from various sources and cleaning the data to remove any irrelevant information.",
+            "url": "https://www.anecdoteai.com/blog/how-to-analyze-questionnaire-customer-reviews-with-ai"
+          },
+          {
+            "title": "Customer Sentiment : How To Measure It for Small... - OpenPhone Blog",
+            "content": "Customer sentiment measures your customers ’ emotions, attitudes, and feelings about your company, product, or service. It’s collected across all customer interactions, including phone, chat, email, social media platforms, and reviews .",
+            "url": "https://www.openphone.com/blog/customer-sentiment/"
+          },
+          {
+            "title": "Sentiment Analysis of Customer Reviews Using Snowflake Cortex...",
+            "content": "Use Snowflake Cortex to analyze the sentiment of customer reviews . Build a low-code data pipeline in Coalesce.io to process and store results.A dataset of 1,020 customer reviews ( CUSTOMER _ REVIEWS ).",
+            "url": "https://www.linkedin.com/pulse/sentiment-analysis-customer-reviews-using-snowflake-cortex-lakhanpal-9ks3c"
+          },
+          {
+            "title": "Sentiment Analysis of Online Reviews using R | by Marketing Data...",
+            "content": "For businesses analyzing customer reviews , sentiment analysis is key to understanding public perception. While structured data, like numerical “star” ratings , are fairly easy to evaluate, unstructured data, such as written reviews , can be more complex.",
+            "url": "https://blog.marketingdatascience.ai/sentiment-analysis-of-online-reviews-using-r-e2afbc9fcc68"
+          }
+        ]
+      },
+      {
+        "search_query": "Adidas Stan Smith customer reviews sentiment analysis user experience feedback",
+        "results_count": 10,
+        "results": [
+          {
+            "title": "Stan Smith Shoes | adidas US",
+            "content": "Shop Stan Smith shoes at adidas . Iconic style meets comfort in these classic sneakers, perfect for casual wear and your most fashion-forward outfits.",
+            "url": "https://www.adidas.com/us/stan_smith"
+          },
+          {
+            "title": "ADIDAS STAN SMITH купить на OZON по низкой цене",
+            "content": "ADIDAS STAN SMITH – покупайте на OZON по выгодным ценам, примерка перед покупкой, быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. распродажи, скидки и акции, реальные отзывы покупателей.",
+            "url": "https://www.OZON.ru/category/adidas-stan-smith/"
+          },
+          {
+            "title": "Buy adidas Stan Smith 'Footwear White' BD7451 - Novelship",
+            "content": "Introducing the iconic adidas Stan Smith 'Footwear White' BD7451, crafted with premium leather and a sleek, timeless design. Experience unparalleled comfort with its breathable lining and cushioned footbed.",
+            "url": "https://novelship.com/adidas-stan-smith-footwear-white-bd-7451"
+          },
+          {
+            "title": "Analysis of customer reviews with an improved VADER lexicon...",
+            "content": "Using sentiment analysis in customer reviews has immense potential but encounters challenges owing to domain heterogeneity. The sentiment orientation of words varies by domain; however, comprehending domain-specific sentiment reviews remains a significant constraint.",
+            "url": "https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00861-x"
+          },
+          {
+            "title": "Balenciaga x adidas Stan Smith Takes 'Dirty Sneaker... | Man of Many",
+            "content": "Balenciaga x adidas Stan Smith will officially release on December 16th at 3:00 pm GMT with prices starting at $800 USD.",
+            "url": "https://manofmany.com/style/sneakers/balenciaga-adidas-stan-smith"
+          },
+          {
+            "title": "Customer Reviews Sentiment Analysis - Uncover Insights with...",
+            "content": "Customer sentiment analysis . Review feedback insights. Emotion analysis tool.",
+            "url": "https://automatio.ai/applications/customer-reviews-sentiment-analysis"
+          },
+          {
+            "title": "GitHub - AhmetTasdemir/ Customer _ Reviews _ Sentiment _ Analysis",
+            "content": "Contribute to AhmetTasdemir/ Customer _ Reviews _ Sentiment _ Analysis development by creating an account on GitHub.Search code, repositories, users , issues, pull requests...",
+            "url": "https://github.com/AhmetTasdemir/Customer_Reviews_Sentiment_Analysis"
+          },
+          {
+            "title": "ADIDAS ORIGINALS STAN SMITH | White Women‘s Sneakers | YOOX",
+            "content": "Stan smith . Sneakers. Us$ 134.low-top sneakers, adidas stan smith , synthetic material, solid color, brand logo, fully lined, lace-up, round toe, rubber sole.",
+            "url": "https://www.yoox.com/sg/32033529QQ/item"
+          },
+          {
+            "title": "adidas Stan Smith | Mens, Womens, Kids | Sneaker10",
+            "content": "Discover the adidas Stan Smith iconic collection of shoes in Unbelievable Prices & Unique Offers only at Sneaker10.gr, the No1 online sneaker store!",
+            "url": "https://www.sneaker10.gr/en/11714-adidas-stan-smith"
+          },
+          {
+            "title": "Sneakers and Activewear | adidas Canada",
+            "content": "adicolor. Superstar. Stan Smith . STELLA MCCARTNEY. Shoes. Experience the adidas difference. Grab a pair of tennis shoes made for hard court performance or a pair of signature athlete basketball shoes made in collaboration with the sport's biggest stars.",
+            "url": "https://www.adidas.ca/"
+          }
+        ]
+      },
+      {
+        "search_query": "Adidas Stan Smith customer reviews sentiment analysis complaints issues problems",
+        "results_count": 10,
+        "results": [
+          {
+            "title": "Adidas Stan Smith - Wikipedia",
+            "content": "Adidas Stan Smith is a tennis shoe made by Adidas , and first launched in 1965. Originally named \" Adidas Robert Haillet\" after the brand endorsed French prominent player Robert Haillet, in 1978 the sneakers were renamed after Stan Smith ...",
+            "url": "https://en.wikipedia.org/wiki/Adidas_Stan_Smith"
+          },
+          {
+            "title": "Stan Smith Shoes | adidas US",
+            "content": "Shop Stan Smith shoes at adidas . Iconic style meets comfort in these classic sneakers, perfect for casual wear and your most fashion-forward outfits.",
+            "url": "https://www.adidas.com/us/stan_smith"
+          },
+          {
+            "title": "ADIDAS STAN SMITH купить на OZON по низкой цене",
+            "content": "ADIDAS STAN SMITH – покупайте на OZON по выгодным ценам, примерка перед покупкой, быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. распродажи, скидки и акции, реальные отзывы покупателей.",
+            "url": "https://www.OZON.ru/category/adidas-stan-smith/"
+          },
+          {
+            "title": "Balenciaga x adidas Stan Smith Takes 'Dirty Sneaker... | Man of Many",
+            "content": "Balenciaga x adidas Stan Smith will officially release on December 16th at 3:00 pm GMT with prices starting at $800 USD.",
+            "url": "https://manofmany.com/style/sneakers/balenciaga-adidas-stan-smith"
+          },
+          {
+            "title": "adidas Originals: Shop Classic Vintange Collection Online | adidas IN",
+            "content": "Shop adidas Originals in India. Explore authentic streetwear, from classic sneakers to modern apparel, available online with nationwide delivery.",
+            "url": "https://www.adidas.co.in/originals"
+          },
+          {
+            "title": "adidas Stan Smith",
+            "content": "adidasadidas Stan Smith Unisex/Yeşil Beyaz Spor Ayakkabı. 5.199 TL.",
+            "url": "https://www.superstep.com.tr/adidas-stan-smith/"
+          },
+          {
+            "title": "Adidas stan smith bold w hotsell",
+            "content": "Stan Smith Crepe Review YouTube hotsell.Get this art on other products. Customer Reviews . 4.66 1253.",
+            "url": "https://panel.bulutgym.com/?p=14181521"
+          },
+          {
+            "title": "Customer Reviews Sentiment Analysis - Uncover Insights with...",
+            "content": "Customer sentiment analysis . Review feedback insights. Emotion analysis tool.Integrating sentiment analysis with Automatio is a breeze. After scraping data and storing it in Google Sheets, simply install ChatGPT.",
+            "url": "https://automatio.ai/applications/customer-reviews-sentiment-analysis"
+          },
+          {
+            "title": "Sentiment Classification based on Machine Learning Approaches in...",
+            "content": "Current Issue .Amazon customer reviews , sentiment analysis , dataset, feature extraction, text classification, machine learning.",
+            "url": "https://etasr.com/index.php/ETASR/article/view/5854"
+          },
+          {
+            "title": "Kendall Jenner’s Adidas Stan Smith Sneakers Sale – Shop...",
+            "content": "Get the adidas Originals Stan Smith here for $59.95. The tennis shoes are made from full-grain leather and have the classic perforated three stripe details on both sides. The shoes lace up the front and fit snugly, plus, the footbed is lined with fabric for ultimate comfort.",
+            "url": "https://hollywoodlife.com/shop/kendall-jenner-adidas-stan-smith-sneakers-sale-4304522/"
+          }
+        ]
+      }
+    ],
+    "total_results": 30
+  },
+  "formatted_output": "SENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 1:\nTitle: Stan Smith Shoes | adidas US\nContent: Shop Stan Smith shoes at adidas . Iconic style meets comfort in these classic sneakers, perfect for casual wear and your most fashion-forward outfits.\nURL: https://www.adidas.com/us/stan_smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 2:\nTitle: 1 отзыв на Ботинки adidas Stan Smith Cs Wtr от покупателей OZON\nContent: Оценки и отзывы покупателей, которые заказали Ботинки adidas Stan Smith Cs Wtr в интернет-магазине OZON, помогут сделать вам правильный выбор.\nURL: https://www.OZON.ru/product/botinki-adidas-stan-smith-cs-wtr-2035564415/reviews/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 3:\nTitle: Customer Reviews Sentiment Analysis (Two Different...) | Medium\nContent: The goal of this project is to perform sentiment analysis on a dataset of reviews using two different techniques in Python: VADER (Valence Aware Dictionary and sEntiment Reasoner) and a Roberta…\nURL: https://medium.com/@ahmettsdmr1312/customer-reviews-sentiment-analysis-two-different-techniques-21db5e67627b\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 4:\nTitle: adidas Stan Smith Shoes - White | adidas India\nContent: See all the styles and colours of Stan Smith Shoes - White at the official adidas online shop India.\nURL: https://www.adidas.co.in/stan-smith-shoes/IG1323.html\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 5:\nTitle: GitHub - norahmhamed/ Customer - Reviews - Sentiment - Analysis\nContent: norahmhamed / Customer - Reviews - Sentiment - Analysis Public.This project showcases an end-to-end sentiment analysis of Amazon product reviews using Python and Power BI. It highlights key insights into customer satisfaction through visual and textual data exploration. Tools Used.\nURL: https://github.com/norahmhamed/Customer-Reviews-Sentiment-Analysis\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 6:\nTitle: Kendall Jenner’s Adidas Stan Smith Sneakers Sale – Shop...\nContent: Get the adidas Originals Stan Smith here for $59.95. The tennis shoes are made from full-grain leather and have the classic perforated three stripe details on both sides. The shoes lace up the front and fit snugly, plus, the footbed is lined with fabric for ultimate comfort.\nURL: https://hollywoodlife.com/shop/kendall-jenner-adidas-stan-smith-sneakers-sale-4304522/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 7:\nTitle: How To Analyze Questionnaire Customer Reviews With AI? | Anecdote\nContent: The first step in analyzing customer reviews with AI is collecting and preparing the data. This involves gathering customer reviews from various sources and cleaning the data to remove any irrelevant information.\nURL: https://www.anecdoteai.com/blog/how-to-analyze-questionnaire-customer-reviews-with-ai\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 8:\nTitle: Customer Sentiment : How To Measure It for Small... - OpenPhone Blog\nContent: Customer sentiment measures your customers ’ emotions, attitudes, and feelings about your company, product, or service. It’s collected across all customer interactions, including phone, chat, email, social media platforms, and reviews .\nURL: https://www.openphone.com/blog/customer-sentiment/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 9:\nTitle: Sentiment Analysis of Customer Reviews Using Snowflake Cortex...\nContent: Use Snowflake Cortex to analyze the sentiment of customer reviews . Build a low-code data pipeline in Coalesce.io to process and store results.A dataset of 1,020 customer reviews ( CUSTOMER _ REVIEWS ).\nURL: https://www.linkedin.com/pulse/sentiment-analysis-customer-reviews-using-snowflake-cortex-lakhanpal-9ks3c\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis customer reviews ratings\nRESULT 10:\nTitle: Sentiment Analysis of Online Reviews using R | by Marketing Data...\nContent: For businesses analyzing customer reviews , sentiment analysis is key to understanding public perception. While structured data, like numerical “star” ratings , are fairly easy to evaluate, unstructured data, such as written reviews , can be more complex.\nURL: https://blog.marketingdatascience.ai/sentiment-analysis-of-online-reviews-using-r-e2afbc9fcc68\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 1:\nTitle: Stan Smith Shoes | adidas US\nContent: Shop Stan Smith shoes at adidas . Iconic style meets comfort in these classic sneakers, perfect for casual wear and your most fashion-forward outfits.\nURL: https://www.adidas.com/us/stan_smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 2:\nTitle: ADIDAS STAN SMITH купить на OZON по низкой цене\nContent: ADIDAS STAN SMITH – покупайте на OZON по выгодным ценам, примерка перед покупкой, быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. распродажи, скидки и акции, реальные отзывы покупателей.\nURL: https://www.OZON.ru/category/adidas-stan-smith/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 3:\nTitle: Buy adidas Stan Smith 'Footwear White' BD7451 - Novelship\nContent: Introducing the iconic adidas Stan Smith 'Footwear White' BD7451, crafted with premium leather and a sleek, timeless design. Experience unparalleled comfort with its breathable lining and cushioned footbed.\nURL: https://novelship.com/adidas-stan-smith-footwear-white-bd-7451\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 4:\nTitle: Analysis of customer reviews with an improved VADER lexicon...\nContent: Using sentiment analysis in customer reviews has immense potential but encounters challenges owing to domain heterogeneity. The sentiment orientation of words varies by domain; however, comprehending domain-specific sentiment reviews remains a significant constraint.\nURL: https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00861-x\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 5:\nTitle: Balenciaga x adidas Stan Smith Takes 'Dirty Sneaker... | Man of Many\nContent: Balenciaga x adidas Stan Smith will officially release on December 16th at 3:00 pm GMT with prices starting at $800 USD.\nURL: https://manofmany.com/style/sneakers/balenciaga-adidas-stan-smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 6:\nTitle: Customer Reviews Sentiment Analysis - Uncover Insights with...\nContent: Customer sentiment analysis . Review feedback insights. Emotion analysis tool.\nURL: https://automatio.ai/applications/customer-reviews-sentiment-analysis\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 7:\nTitle: GitHub - AhmetTasdemir/ Customer _ Reviews _ Sentiment _ Analysis\nContent: Contribute to AhmetTasdemir/ Customer _ Reviews _ Sentiment _ Analysis development by creating an account on GitHub.Search code, repositories, users , issues, pull requests...\nURL: https://github.com/AhmetTasdemir/Customer_Reviews_Sentiment_Analysis\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 8:\nTitle: ADIDAS ORIGINALS STAN SMITH | White Women‘s Sneakers | YOOX\nContent: Stan smith . Sneakers. Us$ 134.low-top sneakers, adidas stan smith , synthetic material, solid color, brand logo, fully lined, lace-up, round toe, rubber sole.\nURL: https://www.yoox.com/sg/32033529QQ/item\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 9:\nTitle: adidas Stan Smith | Mens, Womens, Kids | Sneaker10\nContent: Discover the adidas Stan Smith iconic collection of shoes in Unbelievable Prices & Unique Offers only at Sneaker10.gr, the No1 online sneaker store!\nURL: https://www.sneaker10.gr/en/11714-adidas-stan-smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis user experience feedback\nRESULT 10:\nTitle: Sneakers and Activewear | adidas Canada\nContent: adicolor. Superstar. Stan Smith . STELLA MCCARTNEY. Shoes. Experience the adidas difference. Grab a pair of tennis shoes made for hard court performance or a pair of signature athlete basketball shoes made in collaboration with the sport's biggest stars.\nURL: https://www.adidas.ca/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 1:\nTitle: Adidas Stan Smith - Wikipedia\nContent: Adidas Stan Smith is a tennis shoe made by Adidas , and first launched in 1965. Originally named \" Adidas Robert Haillet\" after the brand endorsed French prominent player Robert Haillet, in 1978 the sneakers were renamed after Stan Smith ...\nURL: https://en.wikipedia.org/wiki/Adidas_Stan_Smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 2:\nTitle: Stan Smith Shoes | adidas US\nContent: Shop Stan Smith shoes at adidas . Iconic style meets comfort in these classic sneakers, perfect for casual wear and your most fashion-forward outfits.\nURL: https://www.adidas.com/us/stan_smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 3:\nTitle: ADIDAS STAN SMITH купить на OZON по низкой цене\nContent: ADIDAS STAN SMITH – покупайте на OZON по выгодным ценам, примерка перед покупкой, быстрая и бесплатная доставка, большой ассортимент, бонусы, рассрочка и кэшбэк. распродажи, скидки и акции, реальные отзывы покупателей.\nURL: https://www.OZON.ru/category/adidas-stan-smith/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 4:\nTitle: Balenciaga x adidas Stan Smith Takes 'Dirty Sneaker... | Man of Many\nContent: Balenciaga x adidas Stan Smith will officially release on December 16th at 3:00 pm GMT with prices starting at $800 USD.\nURL: https://manofmany.com/style/sneakers/balenciaga-adidas-stan-smith\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 5:\nTitle: adidas Originals: Shop Classic Vintange Collection Online | adidas IN\nContent: Shop adidas Originals in India. Explore authentic streetwear, from classic sneakers to modern apparel, available online with nationwide delivery.\nURL: https://www.adidas.co.in/originals\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 6:\nTitle: adidas Stan Smith\nContent: adidasadidas Stan Smith Unisex/Yeşil Beyaz Spor Ayakkabı. 5.199 TL.\nURL: https://www.superstep.com.tr/adidas-stan-smith/\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 7:\nTitle: Adidas stan smith bold w hotsell\nContent: Stan Smith Crepe Review YouTube hotsell.Get this art on other products. Customer Reviews . 4.66 1253.\nURL: https://panel.bulutgym.com/?p=14181521\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 8:\nTitle: Customer Reviews Sentiment Analysis - Uncover Insights with...\nContent: Customer sentiment analysis . Review feedback insights. Emotion analysis tool.Integrating sentiment analysis with Automatio is a breeze. After scraping data and storing it in Google Sheets, simply install ChatGPT.\nURL: https://automatio.ai/applications/customer-reviews-sentiment-analysis\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 9:\nTitle: Sentiment Classification based on Machine Learning Approaches in...\nContent: Current Issue .Amazon customer reviews , sentiment analysis , dataset, feature extraction, text classification, machine learning.\nURL: https://etasr.com/index.php/ETASR/article/view/5854\n---\n\nSENTIMENT SEARCH: Adidas Stan Smith customer reviews sentiment analysis complaints issues problems\nRESULT 10:\nTitle: Kendall Jenner’s Adidas Stan Smith Sneakers Sale – Shop...\nContent: Get the adidas Originals Stan Smith here for $59.95. The tennis shoes are made from full-grain leather and have the classic perforated three stripe details on both sides. The shoes lace up the front and fit snugly, plus, the footbed is lined with fabric for ultimate comfort.\nURL: https://hollywoodlife.com/shop/kendall-jenner-adidas-stan-smith-sneakers-sale-4304522/\n---\n"
+}

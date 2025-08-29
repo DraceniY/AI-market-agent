@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "status": "success",
+          "content": [
+            {
+              "text": "Result: 78.5"
+            }
+          ],
+          "toolUseId": "tooluse_e0S0hEfWQDmLN38fykagVA"
+        }
+      }
+    ]
+  },
+  "message_id": 20,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:10:07.164300+00:00",
+  "updated_at": "2025-08-29T18:10:07.164306+00:00"
+}

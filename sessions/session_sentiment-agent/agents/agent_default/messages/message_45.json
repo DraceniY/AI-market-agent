@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll analyze customer sentiment for Nike Air Max sneakers. Let me search for relevant customer reviews and feedback."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_UlbT6v9WQaCQ2Iuc9Ff3sw",
+          "name": "advanced_sentiment_search",
+          "input": {
+            "query": "Nike Air Max sneakers customer reviews sentiment"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 45,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:06:09.465402+00:00",
+  "updated_at": "2025-08-29T18:06:09.465406+00:00"
+}

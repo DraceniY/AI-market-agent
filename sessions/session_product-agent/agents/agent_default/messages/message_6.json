@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_6t_AaZnDSrCBS9ItyeQZzA",
+          "status": "success",
+          "content": [
+            {
+              "text": "PRODUCT DATA 1:\nTitle: Sneaker and Activewear | adidas US\nContent: Gear up for your favorite sport with adidas sneakers and activewear for men and women. From running to soccer and the gym to the trail, performance workout clothes and shoes keep you …\nSource: https://www.adidas.com/us?msockid=3ca18b60de0866d213ff9d35df74678e\n\nPRODUCT DATA 2:\nTitle: Shop Shoes & Clothing Deals | adidas US\nContent: Find your adidas Shop at adidas.com. All styles and colors available in the official adidas online store.\nSource: https://www.adidas.com/us/shop?msockid=3ca18b60de0866d213ff9d35df74678e\n\nPRODUCT DATA 3:\nTitle: adidas Online Shop | adidas US\nContent: SHOP BY COLLECTION adicolor Premium Collaborations adidas by Stella McCartney Gazelle Originals Samba\nSource: https://www.adidas.com/us/welcome?msockid=3ca18b60de0866d213ff9d35df74678e\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 6,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:27:25.333787+00:00",
+  "updated_at": "2025-08-27T21:27:25.333797+00:00"
+}

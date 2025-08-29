@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_h_rsl13SRFWnDrDlA3Yp8A",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: Accio Are Sambas Out of Style in 2025? Trend Analysis & Insights\nContent: These models, inspired by archival designs like the 1964 Tokyo Olympics, have seen exponential growth on resale platforms like StockX (+5,650% YoY trades for the Taekwondo) 45. Table data sourced from 45. Samba’s Position: While the Samba’s sell-out rates dropped from 53% in 2023 to 36% in 2024 ...\nSource: https://www.accio.com/business/are-sambas-out-of-style-2025-trend\n\nCOMPETITOR ANALYSIS 2:\nTitle: Reuters Adidas targets larger US market share as Nike struggles | Reuters\nContent: February 28, 2025 - Whether Adidas can win more American shoppers from market leader Nike will be key to its continued success this year, investors and analysts said, as the German brand looks for new sources of growth beyond its Samba and Gazelle sneakers .\nSource: https://www.reuters.com/business/retail-consumer/adidas-targets-larger-us-market-share-nike-struggles-2025-02-28/\n\nCOMPETITOR ANALYSIS 3:\nTitle: Reuters Adidas lifted by sales of Samba, Gazelle shoes while North America lags | Reuters\nContent: April 30, 2024 - Adidas has been on a turnaround journey since the cancelled partnership with Ye ended its highly profitable Yeezy shoe line and it reported a loss for 2023, but the company's sales have recently been boosted by the popularity of its \"terrace\" shoes such as the Samba and Gazelle .\nSource: https://www.reuters.com/business/retail-consumer/adidas-q1-growth-partly-offset-by-north-america-sales-decline-2024-04-30/\n\nCOMPETITOR ANALYSIS 4:\nTitle: Hypebeast What Will Replace the adidas Samba As The Next Cult Sneaker? | Hypebeast\nContent: May 8, 2024 - As the Samba hype begins to fade, EDITED dissects the on- trend kicks making noise in 2024 .\nSource: https://hypebeast.com/2024/5/adidas-samba-cult-sneaker-edited-feature\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 20,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:48:00.280113+00:00",
+  "updated_at": "2025-08-27T21:48:00.280117+00:00"
+}

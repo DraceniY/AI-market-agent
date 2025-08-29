@@ -1,0 +1,14 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "Analyze customer sentiment and reviews for Adidas Samba sneakers. Extract themes and satisfaction drivers."
+      }
+    ]
+  },
+  "message_id": 0,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:26:37.192607+00:00",
+  "updated_at": "2025-08-27T21:26:37.192608+00:00"
+}

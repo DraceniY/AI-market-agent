@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_1CujO019QVmX6Gn7GI7_ZQ",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: Adidas Target Market Analysis & Consumer Demographics\nContent: Nike is Adidas biggest competitor , with significantly higher brand value and net revenue compared to Adidas. Nevertheless, Adidas holds strong in its position ...\nSource: https://www.start.io/blog/adidas-target-market-segmentation-and-marketing-strategy-audience-demographics-competitors/\n\nCOMPETITOR ANALYSIS 2:\nTitle: Adidas vs Nike: Business Model Comparison, Revenue ...\nContent: Sep 24, 2024 — Adidas made strides in the market by innovating sport-specific footwear , which included the famous Samba and Stan Smith models, while also ...\nSource: https://businessmodelanalyst.com/adidas-vs-nike/?srsltid=AfmBOorw0oWYIPnyW5V_EfZi-0eO3CKo35172RoUvXTEBC0Qy1m8XpE4\n\nCOMPETITOR ANALYSIS 3:\nTitle: Adidas says demand for Samba shoes far outstrips supply\nContent: Nov 8, 2023 — Adidas (ADSGn.DE) struck an optimistic note on Wednesday, saying retailers are \"visibly\" more interested in its autumn/winter 2024 range.\nSource: https://www.reuters.com/business/retail-consumer/adidas-inventory-position-improving-better-than-planned-2023-11-08/\n\nCOMPETITOR ANALYSIS 4:\nTitle: Adidas Sees Bright Future With Samba And Gazelle ...\nContent: Google Trends shows 'Adidas Samba' searches surpassing 'Nike Air Force 1' searches , peaking in early April. The bigger picture: Adidas' strategy pays off in a ...\nSource: https://finimize.com/content/adidas-sees-bright-future-with-samba-and-gazelle-sneaker-success\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 2,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:26:41.066231+00:00",
+  "updated_at": "2025-08-27T21:26:41.066236+00:00"
+}

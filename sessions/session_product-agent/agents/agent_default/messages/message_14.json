@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_KpL_vFYISXKmpko6o6YZCA",
+          "status": "success",
+          "content": [
+            {
+              "text": "PRODUCT DATA 1:\nTitle: adidas Samba | Designer Sneakers for Men | FARFETCH\nContent: Discover the adidas Samba on FARFETCH. Shop Samba OG sneakers in black, white & pink. Enjoy courier returns across Sporty & Rich blue pairs today.\nSource: https://www.Farfetch.com/mc/sets/adidas-samba.aspx\n\nPRODUCT DATA 2:\nTitle: Samba Shoes | adidas US\nContent: Shop the latest Samba shoes at adidas . Stylish and comfortable, perfect for everyday wear with a classic look.\nSource: https://www.adidas.com/us/samba\n\nPRODUCT DATA 3:\nTitle: Sneakers and Activewear | adidas Canada\nContent: Find your style with sneakers and workout clothes from adidas .Lace up in performance and style with world-class adidas sneakers . Beginners, experts and pros count on proven innovations and comfort to perform at their best.\nSource: https://www.adidas.ca/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 14,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:46:16.593219+00:00",
+  "updated_at": "2025-08-27T21:46:16.593224+00:00"
+}

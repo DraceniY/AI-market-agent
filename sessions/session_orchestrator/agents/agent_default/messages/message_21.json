@@ -1,0 +1,21 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_2nDhRNd2TU2SB8pf0sfKrQ",
+          "name": "calculator",
+          "input": {
+            "mode": "evaluate",
+            "expression": "7.2 * 10"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 21,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:10:10.271111+00:00",
+  "updated_at": "2025-08-29T18:10:10.271117+00:00"
+}

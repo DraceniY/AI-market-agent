@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_49iaHS8qSI-DHrNQ0tUjmg",
+          "status": "success",
+          "content": [
+            {
+              "text": "CUSTOMER FEEDBACK 1:\nTitle: SneakerLens Adidas Samba OG Shoes Review - In-Depth Analysis | SneakerLens\nContent: June 15, 2025 - This iconic sneaker garners strong praise for its versatile aesthetics and timeless design, while generating notable discussion around its comfort characteristics and break-in period. Our analysis of 241 customer reviews reveals a polarized but predominantly positive reception , highlighting ...\nSource: https://www.sneakerlens.com/adidas-samba-og-shoes-review/\n\nCUSTOMER FEEDBACK 2:\nTitle: PureWow An Honest Review of the Adidas Samba Sneaker - PureWow\nContent: February 19, 2024 - The Adidas Samba has been one of the most popular sneakers of the past few years. One PureWow editor reviews her pair of Sambas after a two-week trip.\nSource: https://www.purewow.com/fashion/adidas-samba-sneaker-review\n\nCUSTOMER FEEDBACK 3:\nTitle: Trustpilot adidas Reviews | Read Customer Service Reviews of www.adidas.com\nContent: 2 weeks ago - Do you agree with adidas 's TrustScore? Voice your opinion today and hear what 3,101 customers have already said.\nSource: https://www.trustpilot.com/review/www.adidas.com\n\nCUSTOMER FEEDBACK 4:\nTitle: TODAY.com Adidas Samba OG sneaker review 2025\nContent: February 26, 2025 - These versatile, trendy and award-winning sneakers are my go-to's all year long . Feb. 26, 2025, 4:39 PM EST ... If you're one to keep up with the latest and greatest trends, then you've probably seen the viral Adidas Samba once or twice.\nSource: https://www.today.com/shop/adidas-samba-og-sneaker-review-rcna191532\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 14,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:46:14.276848+00:00",
+  "updated_at": "2025-08-27T21:46:14.276852+00:00"
+}

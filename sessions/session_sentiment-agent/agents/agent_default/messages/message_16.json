@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_x9alyWKYRIO055obumDH1w",
+          "status": "success",
+          "content": [
+            {
+              "text": "CUSTOMER FEEDBACK 1:\nTitle: Adidas Samba Review: My First Pair and Why I Love Them\nContent: User reviews echo the sentiment that the pink Sambas are exceptionally comfy , providing all-day support without compromising on style. The ...\nSource: https://www.lemon8-app.com/@maineymurchison/7329215237486789126?region=us\n\nCUSTOMER FEEDBACK 2:\nTitle: adidas Samba OG Shoes\nContent: The shoes are widely praised as a comfortable, versatile, and stylish option . Reviewers highlight the classic design, quality construction, and good support and ...\nSource: https://www.dickssportinggoods.com/p/adidas-samba-og-shoes-23adiasmbgwhtblkwmns/23adiasmbgwhtblkwmns?srsltid=AfmBOopWXp4-Y-r3iunJPErJ_njQUcVHiRmuT7b7A31VoSLicVMOZOAm\n\nCUSTOMER FEEDBACK 3:\nTitle: Adidas Samba OG Shoes Review - In-Depth Analysis\nContent: The Adidas Samba OG emerges as a style-forward sneaker that delivers strong aesthetic value while demanding some comfort compromises.\nSource: https://www.sneakerlens.com/adidas-samba-og-shoes-review/\n\nCUSTOMER FEEDBACK 4:\nTitle: Adidas Sambas XLG Review: Comfort Meets Style\nContent: Brand:Adidas. Item: Sambas XLG. Price:$110. Pros: Very comfortable, lightweight, goes with any outfit ! Cons:None! ⭐️Overall rating: 5/5.\nSource: https://www.lemon8-app.com/lyra24/7403537091097444870?region=us\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 16,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:47:45.235992+00:00",
+  "updated_at": "2025-08-27T21:47:45.235996+00:00"
+}

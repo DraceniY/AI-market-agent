@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for more specific negative feedback about Adidas Samba sneakers."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_qo6HarqeS_ujpfysKjPAdw",
+          "name": "sentiment_analysis_search",
+          "input": {
+            "query": "Adidas Samba sneakers break-in period heel pain narrow fit"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 19,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:49:58.537158+00:00",
+  "updated_at": "2025-08-27T21:49:58.537163+00:00"
+}

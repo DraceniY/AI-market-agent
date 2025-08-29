@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for one more specific query about Adidas Samba's sales performance and market share."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_n1Xq0oE7RjmP6saTz2k1Bg",
+          "name": "competitor_analysis_search",
+          "input": {
+            "query": "Adidas Samba sales figures market share 2023 revenue growth retro sneaker trend"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 9,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:28:56.712890+00:00",
+  "updated_at": "2025-08-27T21:28:56.712893+00:00"
+}

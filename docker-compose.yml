@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ecommerce-agent:
+    build: .
+    container_name: ecommerce-multiagent
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./results:/app/results
+      - ./sessions:/app/sessions
+      - ./src:/app/src
+    environment:
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

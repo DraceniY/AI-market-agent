@@ -1,0 +1,683 @@
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:settings:Successfully initialized Bedrock model: us.anthropic.claude-3-7-sonnet-20250219-v1:0 in region: us-west-2
+INFO:agents:OpenTelemetry available 
+INFO:agents:Telemetry environment configured for console output
+INFO:__main__:Starting multi-agent analysis for: Adidas Samba sneakers
+INFO:__main__:Running with optional telemetry support
+INFO:agents:🚀 Starting orchestrated analysis for: Adidas Samba sneakers (Session: session-20250829-134146)
+INFO:agents:Session ID 'session-20250829-134146' attached to telemetry context
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<product-agent> | restoring agent
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<competitor-agent> | restoring agent
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<sentiment-agent> | restoring agent
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:strands.telemetry.metrics:Creating Strands MetricsClient
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_yZNdPHmpRfebdFc0j8LGlQ', 'name': 'advanced_product_search', 'input': {'query': 'Adidas Samba sneakers pricing availability popularity'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20pricing%20availability%20popularity%20price%20retail%20cost%20MSRP 200
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sneakers+pricing+availability+popularity+price+retail+cost+MSRP&source=web 200
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_o2OpzynuR8eq6wuR5Xm5Vw', 'name': 'advanced_sentiment_search', 'input': {'query': 'Adidas Samba sneakers customer reviews sentiment'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20pricing%20availability%20popularity%20availability%20stock%20inventory 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20customer%20reviews%20sentiment%20customer%20reviews%20ratings 200
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+pricing+availability+popularity+availability+stock+inventory 403
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+pricing+availability+popularity+availability+stock+inventory&pq=Adidas+Samba+sneakers+pricing+availability+popularity+availability+stock+inventory&cc=en 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b7dafae5-8f74-4fc3-93b1-cb4eb0cc95ac 200
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_D5dwIpzqT0qYUGW6KmMV9g', 'name': 'advanced_competitor_search', 'input': {'query': 'Adidas Samba sneakers competitors market positioning sales performance'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20pricing%20availability%20popularity%20popularity%20trends%20demand%202025 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20competitors%20market%20positioning%20sales%20performance%20vs%20competitors%20comparison 200
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+customer+reviews+sentiment+customer+reviews+ratings 403
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+competitors+market+positioning+sales+performance+vs+competitors+comparison 403
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+customer+reviews+sentiment+customer+reviews+ratings&pq=Adidas+Samba+sneakers+customer+reviews+sentiment+customer+reviews+ratings&cc=en 200
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sneakers+competitors+market+positioning+sales+performance+vs+competitors+comparison&source=web 429
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20customer%20reviews%20sentiment%20user%20experience%20feedback 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+pricing+availability+popularity+popularity+trends+demand+2025&web=1&searchid=3800032 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sneakers+customer+reviews+sentiment+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sneakers+competitors+market+positioning+sales+performance+vs+competitors+comparison&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20competitors%20market%20positioning%20sales%20performance%20market%20share%20analysis%202025 200
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+customer+reviews+sentiment+user+experience+feedback 403
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_487ae555-5592-4ec2-9b78-1aa22e24077e 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+competitors+market+positioning+sales+performance+market+share+analysis+2025&web=1&searchid=2038256 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20competitors%20market%20positioning%20sales%20performance%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+competitors+market+positioning+sales+performance+competitive+landscape+sneaker+market&pq=Adidas+Samba+sneakers+competitors+market+positioning+sales+performance+competitive+landscape+sneaker+market&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+customer+reviews+sentiment+user+experience+feedback&web=1&searchid=8123622 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+customer+reviews+sentiment+complaints+issues+problems&pq=Adidas+Samba+sneakers+customer+reviews+sentiment+complaints+issues+problems&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20customer%20reviews%20sentiment%20complaints%20issues%20problems 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_1qtw2IUUSBuaqm_qbnJpOA', 'name': 'advanced_product_search', 'input': {'query': 'Adidas Samba sneakers stock availability inventory shortage demand 2025'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20stock%20availability%20inventory%20shortage%20demand%202025%20price%20retail%20cost%20MSRP 200
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sneakers+stock+availability+inventory+shortage+demand+2025+price+retail+cost+MSRP&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+stock+availability+inventory+shortage+demand+2025+price+retail+cost+MSRP&web=1&searchid=9631321 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20stock%20availability%20inventory%20shortage%20demand%202025%20availability%20stock%20inventory 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+stock+availability+inventory+shortage+demand+2025+availability+stock+inventory&pq=Adidas+Samba+sneakers+stock+availability+inventory+shortage+demand+2025+availability+stock+inventory&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20stock%20availability%20inventory%20shortage%20demand%202025%20popularity%20trends%20demand%202025 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+stock+availability+inventory+shortage+demand+2025+popularity+trends+demand+2025&web=1&searchid=7344745 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<8>, max_attempts=<6>, current_attempt=<2> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+INFO:agents:✅ Product agent completed successfully
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_mCeGUAJ4Qe-9ncD0q03lww', 'name': 'advanced_competitor_search', 'input': {'query': 'Adidas Samba sneakers market share Nike competitors trend analysis 2023 2024'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sneakers+market+share+Nike+competitors+trend+analysis+2023+2024+vs+competitors+comparison&source=web 429
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20market%20share%20Nike%20competitors%20trend%20analysis%202023%202024%20vs%20competitors%20comparison 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fa0ba845-e7ad-4103-b6a9-85e660594b4e 200
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+market+share+Nike+competitors+trend+analysis+2023+2024+vs+competitors+comparison 403
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sneakers+market+share+Nike+competitors+trend+analysis+2023+2024+vs+competitors+comparison&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20market%20share%20Nike%20competitors%20trend%20analysis%202023%202024%20market%20share%20analysis%202025 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+market+share+Nike+competitors+trend+analysis+2023+2024+market+share+analysis+2025&web=1&searchid=8013856 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20market%20share%20Nike%20competitors%20trend%20analysis%202023%202024%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+market+share+Nike+competitors+trend+analysis+2023+2024+competitive+landscape+sneaker+market&pq=Adidas+Samba+sneakers+market+share+Nike+competitors+trend+analysis+2023+2024+competitive+landscape+sneaker+market&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<16>, max_attempts=<6>, current_attempt=<3> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_uTTokkvQTmCNdHmCwMDcMA', 'name': 'advanced_competitor_search', 'input': {'query': 'Adidas Samba sales figures revenue growth market performance 2023 2024'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sales%20figures%20revenue%20growth%20market%20performance%202023%202024%20vs%20competitors%20comparison 200
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sales+figures+revenue+growth+market+performance+2023+2024+vs+competitors+comparison&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sales%20figures%20revenue%20growth%20market%20performance%202023%202024%20market%20share%20analysis%202025 200
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sales+figures+revenue+growth+market+performance+2023+2024+market+share+analysis+2025&source=web 429
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sales+figures+revenue+growth+market+performance+2023+2024+market+share+analysis+2025&web=1&searchid=8467612 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sales%20figures%20revenue%20growth%20market%20performance%202023%202024%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sales+figures+revenue+growth+market+performance+2023+2024+competitive+landscape+sneaker+market&web=1&searchid=5559814 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_EJsbzcvqR_GNmB0WTSLcCA', 'name': 'advanced_sentiment_search', 'input': {'query': 'Adidas Samba sneakers comfort fit durability style reviews'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+customer+reviews+ratings&pq=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+customer+reviews+ratings&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20comfort%20fit%20durability%20style%20reviews%20customer%20reviews%20ratings 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20comfort%20fit%20durability%20style%20reviews%20user%20experience%20feedback 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_eff07142-3b02-4220-9caa-a0dbcdfe55d3 200
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+user+experience+feedback 403
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+user+experience+feedback&source=web 429
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+user+experience+feedback&web=1&searchid=3040763 200
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+complaints+issues+problems&source=web 429
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20comfort%20fit%20durability%20style%20reviews%20complaints%20issues%20problems 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+complaints+issues+problems&pq=Adidas+Samba+sneakers+comfort+fit+durability+style+reviews+complaints+issues+problems&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+Multi-Agent E-commerce Analysis System with Executive Dashboard
+=============================================================
+Analyzing: Adidas Samba sneakers
+Mode: Full featured
+Dashboard: Executive BI dashboard will be generated
+I'll analyze the product data for Adidas Samba sneakers for you. Let me search for the relevant information about pricing, availability, and popularity.
+Tool #1: advanced_product_search
+I'll analyze customer sentiment for Adidas Samba sneakers. Let me search for relevant customer reviews and feedback.
+Tool #1: advanced_sentiment_search
+I'll analyze the competitive landscape for Adidas Samba sneakers. Let me search for relevant information about competitors and market positioning.
+Tool #1: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/product_search_20250829_134153.json
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_134155.json
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_134155.json
+Let me search for more specific information about Adidas Samba availability:
+Tool #2: advanced_product_search
+Search data saved to: /Users/orchidee/Documents/data/product_search_20250829_134201.json
+Based on the search results, I'll analyze the product data for Adidas Samba sneakers:
+
+```json
+{
+  "product_name": "Adidas Samba Sneakers",
+  "price_analysis": {
+    "current_price": "$100 (standard retail price for Samba OG)",
+    "price_trend": "stable with potential increase due to tariffs",
+    "price_comparison": "affordable compared to other popular sneakers ($90-$150 price range)"
+  },
+  "availability": {
+    "stock_status": "limited",
+    "availability_trend": "Demand continues to outstrip supply since 2023, with inventory challenges persisting into 2025"
+  },
+  "popularity_metrics": {
+    "popularity_score": 90,
+    "search_volume_trend": "slightly decreasing from 2023 peak but remains strong in 2025",
+    "demand_indicators": ["One of Adidas' bestselling sneakers of all time", "Key driver in Adidas' financial performance", "Featured in 2025 fashion trend forecasts"]
+  },
+  "data_sources": ["Reuters", "adidas.com", "GQ", "StockX", "Wall Street Journal", "Vogue Singapore"],
+  "confidence_level": "high"
+}
+```
+
+### Key Insights:
+
+1. **Pricing Structure**:
+   - The standard Adidas Samba OG retails for $100, maintaining a consistent price point
+   - Occasional sales can drop the price significantly (as low as $54 during promotional periods)
+   - Price increases may be coming due to tariffs, as reported by GQ in May 2025
+   - The Samba is positioned as an affordable option in the premium sneaker market, with most models priced between $90-$150
+
+2. **Availability Trends**:
+   - Persistent supply constraints since 2023, with Reuters reporting that "demand far outstrips supply"
+   - Adidas reported a 23% year-on-year inventory reduction in November 2023
+   - Despite increased production, availability remains limited for popular sizes and colorways
+   - Inventory increased 10% by the end of 2024 to support continued growth, but demand still exceeds supply
+   - Multiple retailers carry the Samba, including Adidas.com, FARFETCH, StockX, and specialty sneaker shops
+
+3. **Popularity Analysis**:
+   - The Samba reached peak popularity in 2023 but remains highly sought-after in 2025
+   - Strong sales of Samba and Gazelle models drove Adidas' better-than-expected Q1 2024 results
+   - Featured prominently in 2025 sneaker trend forecasts by publications like Vogue
+   - The Women's Euro 2025 is expected to further boost demand for football-inspired sneakers like the Samba
+   - New variations and colorways continue to be released to maintain market interest
+   - Considered one of Adidas' all-time bestselling sneakers
+
+4. **Market Position**:
+   - Originally introduced in 1950 as a soccer training shoe, now firmly established as a lifestyle staple
+   - Part of Adidas' strategy to leverage heritage models following the end of the Yeezy partnership
+   - Appeals to both fashion-conscious consumers and casual wearers
+   - Significant contributor to Adidas' financial recovery and brand momentum
+   - Counterfeit detection guides for 2025 indicate the model's continued desirability and premium status
+
+The Adidas Samba continues to be a cornerstone product for Adidas in 2025, with strong demand despite being past its absolute peak popularity from 2023. The combination of heritage appeal, affordable pricing, and fashion relevance has established it as an enduring classic in the sneaker market, though availability remains constrained relative to demand.Let me search for more specific information about the Adidas Samba's market position and competitors.
+Tool #2: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_134228.json
+Let me search for more specific information about the Adidas Samba's market position and performance.
+Tool #3: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_134242.json
+Let me search for more specific customer reviews and feedback about Adidas Samba sneakers.
+Tool #2: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_134256.json
+Based on the information gathered, here's a comprehensive competitive analysis for Adidas Samba sneakers:
+
+```json
+{
+  "competitor_landscape": {
+    "primary_competitors": ["Nike", "New Balance", "Puma", "On Running", "Hoka"],
+    "market_positioning": "Adidas Samba is positioned as a premium heritage lifestyle sneaker that has successfully transitioned from its soccer origins to become a fashion staple with strong cultural relevance and crossover appeal",
+    "competitive_advantages": [
+      "Strong heritage design with authentic sports history dating back to 1950",
+      "Cultural cachet and fashion credibility across multiple consumer segments",
+      "Versatile silhouette that works across multiple style categories",
+      "Part of Adidas' successful 'terrace' shoe category that has helped drive the brand's recent growth",
+      "Strong demand that consistently outstrips supply, creating exclusivity and desirability"
+    ],
+    "competitive_threats": [
+      "Signs of trend maturation with search interest peaking in August 2024 (US) and November 2024 (globally)",
+      "Nike's continued market dominance despite recent struggles",
+      "Emerging competitors like On Running and Hoka gaining market share",
+      "Potential market saturation as the style becomes mainstream",
+      "Supply constraints limiting ability to fully capitalize on demand"
+    ]
+  },
+  "market_trends": {
+    "current_trends": [
+      "Strong resurgence of retro and heritage sneaker styles",
+      "Growing consumer preference for versatile, minimalist designs",
+      "Increasing importance of women's sneaker market segment",
+      "Crossover between athletic footwear and high fashion",
+      "Shift from performance-focused to lifestyle-oriented sneaker consumption"
+    ],
+    "trend_direction": "growing but showing signs of maturation",
+    "market_dynamics": "The global sneakers market continues to expand, with Adidas Samba playing a significant role in driving Adidas' recent growth. The Samba has helped Adidas gain market share against Nike, with Adidas increasing its overall market share to 8.9% from 8.2% while Nike's share fell from 15.2% to 14.1% in the same period."
+  },
+  "market_share_analysis": {
+    "estimated_share": "While specific market share for the Samba model isn't available, it has been a key driver of Adidas' overall market share growth, with the company reporting a 26% increase in footwear sales driven largely by iconic models like the Samba and Gazelle",
+    "share_trend": "gaining",
+    "growth_opportunities": [
+      "Expanding production capacity to meet excess demand",
+      "Strategic collaborations and limited editions to maintain premium positioning",
+      "Leveraging the Samba's popularity to strengthen overall brand positioning against Nike",
+      "Expanding into emerging markets with growing sneaker culture",
+      "Developing complementDEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_nwxiyVQTS4idwS_yp44Vgg', 'name': 'advanced_sentiment_search', 'input': {'query': 'Adidas Samba OG sneakers break-in period heel pain narrow fit'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20OG%20sneakers%20break-in%20period%20heel%20pain%20narrow%20fit%20customer%20reviews%20ratings 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a5e2a5a0-4289-44f2-a9d7-c4e6a5684f64 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+OG+sneakers+break-in+period+heel+pain+narrow+fit+customer+reviews+ratings&pq=Adidas+Samba+OG+sneakers+break-in+period+heel+pain+narrow+fit+customer+reviews+ratings&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20OG%20sneakers%20break-in%20period%20heel%20pain%20narrow%20fit%20user%20experience%20feedback 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c2d72a16-b471-44fa-afae-7f78f1b8fb0e 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+OG+sneakers+break-in+period+heel+pain+narrow+fit+user+experience+feedback&pq=Adidas+Samba+OG+sneakers+break-in+period+heel+pain+narrow+fit+user+experience+feedback&cc=en 200
+INFO:primp:response: https://www.bing.com/search?q=Adidas+Samba+OG+sneakers+break-in+period+heel+pain+narrow+fit+complaints+issues+problems&pq=Adidas+Samba+OG+sneakers+break-in+period+heel+pain+narrow+fit+complaints+issues+problems&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20OG%20sneakers%20break-in%20period%20heel%20pain%20narrow%20fit%20complaints%20issues%20problems 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+INFO:agents:✅ Competitor agent completed successfully
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_gQwXbngTTUCvJYrl9dIzTg', 'name': 'advanced_sentiment_search', 'input': {'query': 'Adidas Samba sneakers review break-in period comfort issues'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20review%20break-in%20period%20comfort%20issues%20customer%20reviews%20ratings 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+review+break-in+period+comfort+issues+customer+reviews+ratings&web=1&searchid=1155869 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20review%20break-in%20period%20comfort%20issues%20user%20experience%20feedback 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+review+break-in+period+comfort+issues+user+experience+feedback&web=1&searchid=1387861 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20review%20break-in%20period%20comfort%20issues%20complaints%20issues%20problems 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+review+break-in+period+comfort+issues+complaints+issues+problems&web=1&searchid=1917488 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_6rNyVVvWQBKElULLfLmtFQ', 'name': 'advanced_sentiment_search', 'input': {'query': 'Adidas Samba sneakers customer reviews comfort break-in period heel pain'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20customer%20reviews%20comfort%20break-in%20period%20heel%20pain%20customer%20reviews%20ratings 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+customer+reviews+comfort+break-in+period+heel+pain+customer+reviews+ratings&web=1&searchid=8973938 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20customer%20reviews%20comfort%20break-in%20period%20heel%20pain%20user%20experience%20feedback 200
+INFO:primp:response: https://www.mojeek.com/search?q=Adidas+Samba+sneakers+customer+reviews+comfort+break-in+period+heel+pain+user+experience+feedback 403
+INFO:primp:response: https://www.google.com/search?q=Adidas+Samba+sneakers+customer+reviews+comfort+break-in+period+heel+pain+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_UCqlHjCgE6LtgxKk3JO7Whw_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Adidas+Samba+sneakers+customer+reviews+comfort+break-in+period+heel+pain+user+experience+feedback&source=web 429
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+customer+reviews+comfort+break-in+period+heel+pain+user+experience+feedback&web=1&searchid=7262390 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Adidas%20Samba%20sneakers%20customer%20reviews%20comfort%20break-in%20period%20heel%20pain%20complaints%20issues%20problems 200
+INFO:primp:response: https://yandex.com/search/site/?text=Adidas+Samba+sneakers+customer+reviews+comfort+break-in+period+heel+pain+complaints+issues+problems&web=1&searchid=4990360 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+INFO:agents:✅ Sentiment agent completed successfully
+INFO:agents:🔄 Running orchestrator synthesis...
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<orchestrator> | restoring agent
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_AR6_yugvSUGs3d_wIRSMOw', 'name': 'calculator', 'input': {'mode': 'evaluate', 'expression': '(90 + 7.5*10) / 2'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_Js-U-I2vR4mH3ITcOXCq-Q', 'name': 'calculator', 'input': {'mode': 'evaluate', 'expression': '8.9 / 8.2 * 100 - 100'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse__OSPL4gfSD2-ODEjn7S80A', 'name': 'calculator', 'input': {'mode': 'evaluate', 'expression': '7.5 * 10'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x12cc14f40>> | streaming messages
+ary products within the retro lifestyle category"
+    ]
+  },
+  "strategic_insights": [
+    "Adidas needs to carefully manage the Samba's popularity to avoid oversaturation while maximizing its current momentum",
+    "The company should develop strategies to sustain growth beyond the current trend cycle as search interest data suggests potential matLeturation",
+    "Adidas should leverage its current market share gains me search for more specific information about Adidas S against Nike to strengthen its position in the Northamba sneakers reviews. American market",
+    "The success of Samba and Gazelle models has
+Tool #3: advanced_sentiment_search
+ been crucial in Adidas' recovery following the end of the Yeezy partnership",
+    "Adidas reported a 19% year-over-year revenue increase in Q4 2024, with the Samba and similar classic styles contributing significantly to this growth"
+  ],
+  "data_sources": [
+    "Reuters market reports",
+    "CNBC financial analysis",
+    "Business of Fashion industry insights",
+    "Accio market trend analysis",
+    "TechSciResearch market forecasts",
+    "Adidas GroupSearch data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_134326.json
+ financial reports",
+    "Google Trends search data",
+    "GlobalData market analysis"
+  ]
+}
+```Let me try one more search to get more specific information about Adidas Samba sneakers.
+Tool #4: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_134344.json
+Let me try one more specific search to get better information about customer reviews.
+Tool #5: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_134401.json
+Based on the customer reviews and sentiment data I've gathered, here's my analysis of Adidas Samba sneakers:
+
+```json
+{
+  "sentiment_overview": {
+    "overall_sentiment": 7.5,
+    "sentiment_trend": "stable",
+    "review_volume": "High volume of reviews across multiple platforms"
+  },
+  "positive_sentiment": {
+    "score": 8.3,
+    "key_themes": ["Timeless design", "Versatility", "Style factor", "Durability", "Long-term comfort"],
+    "customer_praise": ["The pink Sambas are exceptionally comfy, providing all-day support without compromising on style", "After I broke them in, they got really comfortable", "The soft leather upper ensures a comfortable fit, even for extended wear"]
+  },
+  "negative_sentiment": {
+    "score": 4.8,
+    "key_issues": ["Break-in period", "Heel discomfort", "Narrow fit", "Initial stiffness"],
+    "customer_complaints": ["Initial discomfort in the heal/achilles tendon area due to high rear section on shoe", "I suffered a trimalleolar fracture while wearing samba 2 months ago", "The Adidas Samba Original shoes feel more rigid"]
+  },
+  "sentiment_drivers": {
+    "satisfaction_factors": ["Classic aesthetics", "Versatility with outfits", "Quality materials", "Durability", "Post break-in comfort"],
+    "dissatisfaction_factors": ["Painful break-in period", "Heel rubbing issues", "Lack of arch support", "Initial stiffness"]
+  },
+  "actionable_insights": [
+    "Consider adding heel padding to reduce break-in discomfort",
+    "Improve arch support based on customer feedback",
+    "Provide clear guidance about break-in period expectations",
+    "Highlight the long-term comfort and durability in marketing"
+  ],
+  "data_sources": [
+    "Reddit user discussions",
+    "PureWow editor review",
+    "Zappos customer reviews",
+    "Lemon8 user reviews",
+    "StyleRunner customer feedback",
+    "TikTok user experiences",
+    "SneakerLens analysis"
+  ]
+}
+```
+
+## Key Findings:
+
+The Adidas Samba sneakers receive generally positive sentiment with customers particularly valuing their iconic design, versatility, and long-term comfort. Analysis of customer feedback reveals these sneakers have maintained strong popularity since their introduction in 1950, evolving from soccer training shoes to fashion staples.
+
+The most consistent positive themes center around the Samba's timeless aesthetic appeal and versatility with different outfits. Many customers praise how the sneakers can be styled with virtually any outfit and maintain their appearance over time. The quality construction and durability are also frequently highlighted in positive reviews, with customers appreciating the premium materials and craftsmanship.
+
+However, there are notable concerns around the initial comfort and break-in period. Many customers report significant discomfort during the first few wears, particularly in the heel area where the high back section can cause rubbing and blisters. This is one of the most consistent complaints across multiple review platforms. Some users also mention a lack of arch support and the narrow fit as potential issues.
+
+Despite these initial comfort challenges, a clear pattern emerges: most customers who persevere through the break-in period report that the shoes eventually become very comfortable. As one reviewer stated, "After I broke them in, they got really comfortable." This suggests that while the initial experience may be uncomfortable, the long-term comfort and style benefits make the shoes worth the investment for many customers.
+
+The data shows a polarized but predominantly positive reception, with many customers willing to endure the initial discomfort for the style and versatility benefits. For those with sensitive feet or specific foot issues, some reviewers recommend using heel inserts or cushions to help with the break-in process.
+
+Overall, the Adidas Samba continues to be a highly sought-after sneaker with strong customer loyalty, driven primarily by its classic design, versatility, and durability rather than its immediate out-of-box comfort.I'll synthesize these specialist findings into a comprehensive strategic analysis. First, I need to calculate some values for the KPI dashboard.
+Tool #1: calculator
+
+Tool #2: calculator
+
+Tool #3: calculator
+{
+  "executive_summary": "Adidas Samba sneakers maintain strong market performance with high popularity (90/100) despite showing signs of trend maturation. The product has been instrumental in Adidas' market share growth (8.9%, up from 8.2%) while Nike's share declined. Customer sentiment remains positive (7.5/10) with praise for timeless design and versatility, though break-in discomfort presents a significant challenge. Strategic opportunities exist in expanding production capacity to meet persistent demand, addressing comfort issues, and carefully managing the product lifecycle to extend momentum beyond the current trend cycle.",
+  "consolidated_insights": {
+    "product_performance": {
+      "price_point": "$100 (standard retail price for Samba OG)",
+      "availability": "Limited with demand consistently outstripping supply since 2023",
+      "popularity_score": 90,
+      "search_trend": "Slightly decreasing from 2023 peak but remains strong",
+      "key_strengths": [
+        "One of Adidas' bestselling sneakers of all time",
+        "Key driver in Adidas' financial performance",
+        "Featured in 2025 fashion trend forecasts",
+        "Strong heritage design dating back to 1950"
+      ]
+    },
+    "competitive_position": {
+      "market_share_trend": "Gaining (Adidas increased from 8.2% to 8.9% while Nike fell from 15.2% to 14.1%)",
+      "primary_competitors": ["Nike", "New Balance", "Puma", "On Running", "Hoka"],
+      "competitive_advantages": [
+        "Strong heritage design with authentic sports history",
+        "Cultural cachet across multiple consumer segments",
+        "Versatile silhouette that works across multiple style categories",
+        "Strong demand creating exclusivity and desirability"
+      ],
+      "market_trends": [
+        "Strong resurgence of retro and heritage sneaker styles",
+        "Growing consumer preference for versatile, minimalist designs",
+        "Increasing importance of women's sneaker market segment",
+        "Shift from performance-focused to lifestyle-oriented consumption"
+      ]
+    },
+    "customer_experience": {
+      "overall_sentiment": 7.5,
+      "sentiment_trend": "Stable",
+      "key_satisfaction_drivers": [
+        "INFO:agents:✅ Orchestrator synthesis completed
+INFO:agents:✅ Orchestrated analysis completed successfully
+INFO:agents:Session context for 'session-20250829-134146' detached
+INFO:__main__:Analysis results saved to: /Users/orchidee/Documents/results/analysis_result_Adidas_Samba_sneakers_20250829_134536.json
+INFO:__main__:Generating executive dashboard...
+INFO:__main__:Executive dashboard saved to: /Users/orchidee/Documents/results/executive_dashboard_Adidas_Samba_sneakers_20250829.html
+INFO:__main__:Opening executive dashboard in browser...
+Timeless design",
+        "Versatility with outfits",
+        "Style factor",
+        "Durability",
+        "Long-term comfort (post break-in)"
+      ],
+      "key_dissatisfaction_factors": [
+        "Painful break-in period",
+        "Heel rubbing issues",
+        "Narrow fit",
+        "Initial stiffness",
+        "Lack of arch support"
+      ]
+    }
+  },
+  "strategic_recommendations": [
+    {
+      "priority": "High",
+      "category": "Product Development",
+      "recommendation": "Redesign heel area to reduce break-in discomfort while maintaining classic aesthetics",
+      "rationale": "Heel discomfort is the most frequently cited customer complaint, creating a significant barrier to satisfaction",
+      "expected_impact": "Improved initial customer experience, reduced returns, and stronger word-of-mouth recommendations"
+    },
+    {
+      "priority": "High",
+      "category": "Supply Chain",
+      "recommendation": "Expand production capacity to meet persistent excess demand",
+      "rationale": "Demand continues to outstrip supply since 2023, limiting revenue potential and market share gains",
+      "expected_impact": "Increased sales volume, revenue growth, and further market share gains against competitors"
+    },
+    {
+      "priority": "Medium",
+      "category": "Marketing",
+      "recommendation": "Develop transparent messaging about break-in period with care instructions",
+      "rationale": "Setting proper expectations can mitigate negative sentiment during initial wear period",
+      "expected_impact": "Improved customer satisfaction and reduced negative reviews related to initial comfort"
+    },
+    {
+      "priority": "Medium",
+      "category": "Product Strategy",
+      "recommendation": "Introduce premium comfort-focused variants with enhanced arch support and padding",
+      "rationale": "Addressing key comfort issues while maintaining the classic design aesthetic",
+      "expected_impact": "Expanded customer base and price point options while extending product lifecycle"
+    },
+    {
+      "priority": "Low",
+      "category": "Market Expansion",
+      "recommendation": "Develop strategic collaborations to maintain premium positioning as trend matures",
+      "rationale": "Search interest data suggests trend maturation, requiring strategic initiatives to maintain momentum",
+      "expected_impact": "Extended product lifecycle and reinforced premium positioning in the market"
+    }
+  ],
+  "kpi_dashboard": {
+    "overall_market_score": 82,
+    "competitive_strength": 85,
+    "customer_satisfaction": 75,
+    "growth_potential": 80
+  },
+  "risk_assessment": [
+    "Signs of trend maturation with search interest peaking in 2024",
+    "Persistent comfort issues could damage brand reputation if not addressed",
+    "Supply constraints limiting ability to fully capitalize on demand",
+    "Potential market saturation as the style becomes mainstream",
+    "Competitors developing similar retro-inspired alternatives"
+  ],
+  "next_actions": [
+    "Conduct ergonomic analysis of heel design to identify specific improvement opportunities",
+    "Evaluate production capacity expansion options with manufacturing partners",
+    "Develop comprehensive break-in guide and care instructions for customers",
+    "Create prototype of comfort-enhanced Samba variant for consumer testing",
+    "Monitor trend indicators closely for early detection of significant demand shifts"
+  ]
+}
+================================================================================
+MULTI-AGENT E-COMMERCE ANALYSIS SUMMARY
+================================================================================
+Product Analyzed: Adidas Samba sneakers
+Analysis Date: 2025-08-29T13:45:36.475133
+Session ID: session-20250829-134146
+
+Execution Status:
+  Agents Completed: 3/3
+  Orchestration: Success
+  Telemetry: Enabled (Context: Set)
+
+Business Metrics:
+  Overall Market Score: 82/100
+  Customer Satisfaction: 75/100
+  Competitive Strength: 85/100
+  Growth Potential: 80/100
+
+Agent Results:
+  Product: Success
+    - Price: $100 (standard retail price for Samba OG) | Popularity: 90/100
+  Competitor: Success
+    - Top Competitors: Nike, New Balance, Puma
+  Sentiment: Success
+    - Customer Sentiment: 7.5/10
+
+Top Strategic Recommendations:
+    1. [High] Redesign heel area to reduce break-in discomfort while maintaining classic aesth...
+    2. [High] Expand production capacity to meet persistent excess demand...
+    3. [Medium] Develop transparent messaging about break-in period with care instructions...
+
+================================================================================
+Analysis completed with 100.0% agent success rate
+Results saved to: /Users/orchidee/Documents/results/analysis_result_Adidas_Samba_sneakers_20250829_134536.json
+Executive dashboard: /Users/orchidee/Documents/results/executive_dashboard_Adidas_Samba_sneakers_20250829.html

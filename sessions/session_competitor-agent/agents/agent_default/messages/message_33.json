@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for more specific information about the Adidas Gazelle's market position and performance."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_9aTLEXd7S7-ih_i6xdINWg",
+          "name": "advanced_competitor_search",
+          "input": {
+            "query": "Adidas Gazelle sales figures revenue growth market performance 2023 2024 2025"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 33,
+  "redact_message": null,
+  "created_at": "2025-08-29T16:34:18.422920+00:00",
+  "updated_at": "2025-08-29T16:34:18.422925+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "query": "Adidas Stan Smith",
+  "timestamp": "2025-08-29T07:36:35.094424",
+  "error": "name 'context_token' is not defined",
+  "execution_summary": {
+    "agents_completed": 0,
+    "total_agents": 3,
+    "orchestration_success": false
+  },
+  "save_metadata": {
+    "saved_at": "2025-08-29T07:36:35.095748",
+    "saved_to": "/Users/orchidee/Documents/AI-market-agent/results/analysis_result_Adidas_Stan_Smith_20250829_073635.json",
+    "pwd": "/Users/orchidee/Documents/AI-market-agent/src",
+    "filename": "analysis_result_Adidas_Stan_Smith_20250829_073635.json"
+  }
+}

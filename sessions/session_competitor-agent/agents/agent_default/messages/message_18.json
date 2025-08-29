@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_aO_1viDrS3aQoUpcB6sk5A",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: Sneaker and Activewear | adidas US\nContent: Explore adidas sneakers for sports and daily wear. From versatile activewear to sporting goods and accessories for all ages and all levels.\nSource: https://www.adidas.com/us?msockid=01bfe58511a96bd80a84f3d010486a63\n\nCOMPETITOR ANALYSIS 2:\nTitle: Amazon.com: Adidas\nContent: adidas Men's Athletic Cushioned 6-Pack Crew, Cushioned Crew Socks with Arch Compression for a Secure Fit Add to cart\nSource: https://www.amazon.com/adidas/s?k=adidas\n\nCOMPETITOR ANALYSIS 3:\nTitle: adidas | DICK'S Sporting Goods\nContent: Shop adidas shoes by sport, with shoes and cleats engineered for everything from football and baseball to basketball, running and golf. adidas shoes are built with a supportive but …\nSource: https://www.dickssportinggoods.com/s/brand-shop/adidas?msockid=01bfe58511a96bd80a84f3d010486a63\n\nCOMPETITOR ANALYSIS 4:\nTitle: adidas Shoes, Apparel, & Accessories | Foot Locker\nContent: Shop the latest selection of adidas at Foot Locker. Find the hottest sneaker drops from brands like Jordan, Nike, Under Armour, New Balance, and a bunch more. Free shipping for FLX members.\nSource: https://www.footlocker.com/category/brands/adidas.html\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 18,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:47:30.180781+00:00",
+  "updated_at": "2025-08-27T21:47:30.180788+00:00"
+}

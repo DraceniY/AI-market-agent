@@ -1,0 +1,14 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "Analyze product data for Nike AirMax. Focus on pricing, availability, and popularity."
+      }
+    ]
+  },
+  "message_id": 32,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:06:02.282433+00:00",
+  "updated_at": "2025-08-29T18:06:02.282435+00:00"
+}

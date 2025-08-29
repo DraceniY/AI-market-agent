@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_IYCiKdxZSYiw03PCRB_a6g",
+          "status": "success",
+          "content": [
+            {
+              "text": "PRODUCT DATA 1:\nTitle: Sneaker Freaker The Rise and Fall of the adidas Samba and Everything In-Between - Features\nContent: May 3, 2024 - And, it’s no secret that the ... didn’t know what the Samba was yet, they did now. Arguably, the adidas Samba has reached peak popularity in 2023 and 2024 has already seen a dip ....\nSource: https://www.sneakerfreaker.com/features/adidas-samba-is-everywhere-trend-explained/\n\nPRODUCT DATA 2:\nTitle: Reuters Adidas says demand for Samba shoes far outstrips supply | Reuters\nContent: November 8, 2023 - Adidas inventory levels fell 23% year on year to 4.85 billion euros ($5.18 billion). That was a positive development, given that other apparel and footwear retailers in the United States and elsewhere have been struggling with excess stocks and cutting prices to move products off the shelves.\nSource: https://www.reuters.com/business/retail-consumer/adidas-inventory-position-improving-better-than-planned-2023-11-08/\n\nPRODUCT DATA 3:\nTitle: Reuters Adidas lifted by sales of Samba, Gazelle shoes while North America lags | Reuters\nContent: April 30, 2024 - Adidas has been on a turnaround journey since the cancelled partnership with Ye ended its highly profitable Yeezy shoe line and it reported a loss for 2023, but the company's sales have recently been boosted by the popularity of its \"terrace\" shoes such as the Samba and Gazelle.\nSource: https://www.reuters.com/business/retail-consumer/adidas-q1-growth-partly-offset-by-north-america-sales-decline-2024-04-30/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 2,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:26:41.418584+00:00",
+  "updated_at": "2025-08-27T21:26:41.418593+00:00"
+}

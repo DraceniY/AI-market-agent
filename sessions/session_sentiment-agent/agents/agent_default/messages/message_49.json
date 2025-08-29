@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for more specific information about different Nike Air Max models and their reviews."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_KvuK7wnMTeO3m8DpjbBNXg",
+          "name": "advanced_sentiment_search",
+          "input": {
+            "query": "Nike Air Max 90 270 97 comfort durability style reviews"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 49,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:06:40.123201+00:00",
+  "updated_at": "2025-08-29T18:06:40.123210+00:00"
+}

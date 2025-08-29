@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search specifically for information about the Adidas Samba sneakers and their competitive landscape."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_aO_1viDrS3aQoUpcB6sk5A",
+          "name": "competitor_analysis_search",
+          "input": {
+            "query": "Adidas Samba sneakers popularity trend competitors market share 2023 2024"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 17,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:47:29.822879+00:00",
+  "updated_at": "2025-08-27T21:47:29.822881+00:00"
+}

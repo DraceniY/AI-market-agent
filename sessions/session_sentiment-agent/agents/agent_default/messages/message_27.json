@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for more specific customer reviews and feedback about Adidas Gazelle sneakers."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_dai4dWHZTheIRk6xpsEsLA",
+          "name": "advanced_sentiment_search",
+          "input": {
+            "query": "Adidas Gazelle sneakers comfort durability style fit"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 27,
+  "redact_message": null,
+  "created_at": "2025-08-29T16:34:02.659356+00:00",
+  "updated_at": "2025-08-29T16:34:02.659359+00:00"
+}

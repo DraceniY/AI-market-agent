@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_n1Xq0oE7RjmP6saTz2k1Bg",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: Adidas shares jump as new chief says China business has turned the...\nContent: Adidas : declining market share in China reflects growing strength of local brands.The overall performance showed that “the brand heat is improving” as sales of Gazelle and Samba shoes were partly offsetting the lost Yeezy revenue , said Adam Cochrane, analyst at Deutsche Bank.\nSource: https://www.ft.com/content/848c53ca-7467-4d75-b089-c6d0ed842cff\n\nCOMPETITOR ANALYSIS 2:\nTitle: How Nike’s navigating China’s cut-throat sportswear market | Jing Daily\nContent: Competing with local brands and Adidas ’ rising cult status, Nike’s been drilling down on its reputation in the China market this year.\nSource: https://jingdaily.com/posts/how-nike-s-navigating-china-s-competitive-sportswear-landscape\n\nCOMPETITOR ANALYSIS 3:\nTitle: The 35 Greatest Sneaker Brands In 2025 (For Every Budget)\nContent: Adidas Originals Samba Suede-Trimmed Leather Sneakers .Recently, the French alpine-sports brand has enjoyed an explosive rise in popularity in the sneaker scene thanks to its techy trail-running shoes that tie into the ongoing ‘gorpcore’ trend .\nSource: https://mensflair.com/worlds-best-sneaker-brands/\n\nCOMPETITOR ANALYSIS 4:\nTitle: 6 sneaker trends to look out for in 2025 | Vogue Singapore\nContent: From powerhouse collaborations to subculture-led styles, here are the sneaker trends set to pave the way in the coming year.\nSource: https://vogue.sg/sneaker-trends-2025/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 10,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:28:58.392616+00:00",
+  "updated_at": "2025-08-27T21:28:58.392622+00:00"
+}

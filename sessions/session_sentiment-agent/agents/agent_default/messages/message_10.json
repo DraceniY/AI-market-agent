@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_D7isZVLlSLqWIHI-aD_Bcg",
+          "status": "success",
+          "content": [
+            {
+              "text": "CUSTOMER FEEDBACK 1:\nTitle: Sneaker and Activewear | adidas US\nContent: Gear up for your favorite sport with adidas sneakers and activewear for men and women. From running to soccer and the gym to the trail, performance workout clothes and shoes keep you …\nSource: https://www.adidas.com/us?msockid=29eab50f577b6fb7085ca35a567b6ea4\n\nCUSTOMER FEEDBACK 2:\nTitle: Shop Shoes & Clothing Deals | adidas US\nContent: Find your adidas Shop at adidas.com. All styles and colors available in the official adidas online store.\nSource: https://www.adidas.com/us/shop?msockid=29eab50f577b6fb7085ca35a567b6ea4\n\nCUSTOMER FEEDBACK 3:\nTitle: adidas Online Shop | adidas US\nContent: SHOP BY COLLECTION adicolor Premium Collaborations adidas by Stella McCartney Gazelle Originals Samba\nSource: https://www.adidas.com/us/welcome?msockid=29eab50f577b6fb7085ca35a567b6ea4\n\nCUSTOMER FEEDBACK 4:\nTitle: adidas Shoes, Sneakers & Slides | adidas US\nContent: Shop adidas shoes for training, sport, and casual lifestyle at the official adidas online store. Browse all the hottest styles like UltraBoost, NMD, and more.\nSource: https://www.adidas.com/us/shoes?msockid=29eab50f577b6fb7085ca35a567b6ea4\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 10,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:29:46.645371+00:00",
+  "updated_at": "2025-08-27T21:29:46.645378+00:00"
+}

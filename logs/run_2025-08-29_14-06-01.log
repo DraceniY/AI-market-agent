@@ -1,0 +1,785 @@
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:settings:Successfully initialized Bedrock model: us.anthropic.claude-3-7-sonnet-20250219-v1:0 in region: us-west-2
+INFO:agents:OpenTelemetry available 
+INFO:agents:Telemetry environment configured for console output
+INFO:__main__:Starting multi-agent analysis for: Nike AirMax
+INFO:__main__:Running with optional telemetry support
+INFO:agents:🚀 Starting orchestrated analysis for: Nike AirMax (Session: session-20250829-140602)
+INFO:agents:Session ID 'session-20250829-140602' attached to telemetry context
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<product-agent> | restoring agent
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<competitor-agent> | restoring agent
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<sentiment-agent> | restoring agent
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:strands.telemetry.metrics:Creating Strands MetricsClient
+INFO:strands.telemetry.metrics:Creating Strands MetricsClient
+INFO:strands.telemetry.metrics:Creating Strands MetricsClient
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_6Slsx1MeTpSOZfLMt1pSpA', 'name': 'advanced_product_search', 'input': {'query': 'Nike Air Max sneakers pricing availability popularity'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20pricing%20availability%20popularity%20price%20retail%20cost%20MSRP 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+pricing+availability+popularity+price+retail+cost+MSRP&web=1&searchid=5261253 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20pricing%20availability%20popularity%20availability%20stock%20inventory 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+pricing+availability+popularity+availability+stock+inventory&web=1&searchid=9149889 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20pricing%20availability%20popularity%20popularity%20trends%20demand%202025 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+sneakers+pricing+availability+popularity+popularity+trends+demand+2025&source=web 429
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sneakers+pricing+availability+popularity+popularity+trends+demand+2025&pq=Nike+Air+Max+sneakers+pricing+availability+popularity+popularity+trends+demand+2025&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_UlbT6v9WQaCQ2Iuc9Ff3sw', 'name': 'advanced_sentiment_search', 'input': {'query': 'Nike Air Max sneakers customer reviews sentiment'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20customer%20reviews%20sentiment%20customer%20reviews%20ratings 200
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_xEHAZqn3R2uBoNvmWC2_BA', 'name': 'advanced_competitor_search', 'input': {'query': 'Nike Air Max sneakers competitors market positioning sales performance'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20competitors%20market%20positioning%20sales%20performance%20vs%20competitors%20comparison 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+competitors+market+positioning+sales+performance+vs+competitors+comparison 403
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+customer+reviews+sentiment+customer+reviews+ratings&web=1&searchid=9325218 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20customer%20reviews%20sentiment%20user%20experience%20feedback 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+customer+reviews+sentiment+user+experience+feedback 403
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+competitors+market+positioning+sales+performance+vs+competitors+comparison&web=1&searchid=3248833 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+sneakers+customer+reviews+sentiment+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20competitors%20market%20positioning%20sales%20performance%20market%20share%20analysis%202025 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sneakers+competitors+market+positioning+sales+performance+market+share+analysis+2025&pq=Nike+Air+Max+sneakers+competitors+market+positioning+sales+performance+market+share+analysis+2025&cc=en 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+customer+reviews+sentiment+complaints+issues+problems 403
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20customer%20reviews%20sentiment%20complaints%20issues%20problems 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20competitors%20market%20positioning%20sales%20performance%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+sneakers+competitors+market+positioning+sales+performance+competitive+landscape+sneaker+market&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+customer+reviews+sentiment+complaints+issues+problems&web=1&searchid=7648077 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_JYVEGUm1RMK851ylVxUlog', 'name': 'advanced_product_search', 'input': {'query': 'Nike Air Max sneakers price range popularity trends 2025 market analysis'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20price%20range%20popularity%20trends%202025%20market%20analysis%20price%20retail%20cost%20MSRP 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+price+retail+cost+MSRP&web=1&searchid=8797807 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20price%20range%20popularity%20trends%202025%20market%20analysis%20availability%20stock%20inventory 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+availability+stock+inventory&source=web 429
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+availability+stock+inventory 403
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+availability+stock+inventory&web=1&searchid=6206260 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20price%20range%20popularity%20trends%202025%20market%20analysis%20popularity%20trends%20demand%202025 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+popularity+trends+demand+2025&source=web 429
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+popularity+trends+demand+2025 403
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9e8f5e23-83c6-436b-a2eb-3bbc3f24b9f4 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+popularity+trends+demand+2025&pq=Nike+Air+Max+sneakers+price+range+popularity+trends+2025+market+analysis+popularity+trends+demand+2025&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_jgy9ME9RTCKE9PtM4nl3ow', 'name': 'advanced_sentiment_search', 'input': {'query': 'Nike Air Max sneakers comfort durability quality reviews'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20comfort%20durability%20quality%20reviews%20customer%20reviews%20ratings 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+customer+reviews+ratings 403
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0efd30c8-c636-43bf-9aa7-488fbb8c296b 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+customer+reviews+ratings&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+customer+reviews+ratings&pq=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+customer+reviews+ratings&cc=en 200
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+user+experience+feedback 403
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20comfort%20durability%20quality%20reviews%20user%20experience%20feedback 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2add4366-fb57-408b-9b65-9678d8c357e7 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+user+experience+feedback&web=1&searchid=1480943 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20comfort%20durability%20quality%20reviews%20complaints%20issues%20problems 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+complaints+issues+problems 403
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+complaints+issues+problems&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+complaints+issues+problems&source=web 429
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+complaints+issues+problems&pq=Nike+Air+Max+sneakers+comfort+durability+quality+reviews+complaints+issues+problems&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<8>, max_attempts=<6>, current_attempt=<2> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_KvuK7wnMTeO3m8DpjbBNXg', 'name': 'advanced_sentiment_search', 'input': {'query': 'Nike Air Max 90 270 97 comfort durability style reviews'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+customer+reviews+ratings&pq=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+customer+reviews+ratings&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%2090%20270%2097%20comfort%20durability%20style%20reviews%20customer%20reviews%20ratings 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%2090%20270%2097%20comfort%20durability%20style%20reviews%20user%20experience%20feedback 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0aef719c-2575-44fb-81bd-c0f0302d4961 200
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<8>, max_attempts=<6>, current_attempt=<2> | throttling exception encountered | delaying before next retry
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+user+experience+feedback&source=web 429
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+user+experience+feedback&web=1&searchid=5099343 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%2090%20270%2097%20comfort%20durability%20style%20reviews%20complaints%20issues%20problems 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_069e0675-3238-41cf-b8bb-0d5e63fecad5 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+complaints+issues+problems&pq=Nike+Air+Max+90+270+97+comfort+durability+style+reviews+complaints+issues+problems&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<16>, max_attempts=<6>, current_attempt=<3> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_k0EkHl18Sj2V4th1FtjCdQ', 'name': 'advanced_sentiment_search', 'input': {'query': 'Nike Air Max sneakers customer reviews pros cons'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sneakers+customer+reviews+pros+cons+customer+reviews+ratings&pq=Nike+Air+Max+sneakers+customer+reviews+pros+cons+customer+reviews+ratings&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20customer%20reviews%20pros%20cons%20customer%20reviews%20ratings 200
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<16>, max_attempts=<6>, current_attempt=<3> | throttling exception encountered | delaying before next retry
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20customer%20reviews%20pros%20cons%20user%20experience%20feedback 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+sneakers+customer+reviews+pros+cons+user+experience+feedback 403
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+sneakers+customer+reviews+pros+cons+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+sneakers+customer+reviews+pros+cons+user+experience+feedback&source=web 429
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+customer+reviews+pros+cons+user+experience+feedback&web=1&searchid=1722423 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sneakers%20customer%20reviews%20pros%20cons%20complaints%20issues%20problems 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sneakers+customer+reviews+pros+cons+complaints+issues+problems&web=1&searchid=4159003 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_yVCtBRTCQm-9kZ8BZPgF3w', 'name': 'advanced_sentiment_search', 'input': {'query': 'Nike Air Max 270 90 97 customer reviews comfort quality'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+customer+reviews+ratings&pq=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+customer+reviews+ratings&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20270%2090%2097%20customer%20reviews%20comfort%20quality%20customer%20reviews%20ratings 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20270%2090%2097%20customer%20reviews%20comfort%20quality%20user%20experience%20feedback 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+user+experience+feedback&source=web 429
+INFO:primp:response: https://search.yahoo.com/search;_ylt=4EBfqKOKmAL7HKhUoSAQpljS;_ylu=fCzROa5bA_pJ4afCjs9_haUswqdDz4dnsVow_Iw53LBaUV0?p=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+user+experience+feedback 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+user+experience+feedback&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+complaints+issues+problems&source=web 429
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20270%2090%2097%20customer%20reviews%20comfort%20quality%20complaints%20issues%20problems 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+270+90+97+customer+reviews+comfort+quality+complaints+issues+problems&web=1&searchid=2354491 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<32>, max_attempts=<6>, current_attempt=<4> | throttling exception encountered | delaying before next retry
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<4>, max_attempts=<6>, current_attempt=<1> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_4RXjBvZwR-aX16z15JEKsA', 'name': 'advanced_product_search', 'input': {'query': 'Nike Air Max models price range popularity 2025 Air Max 90 Air Max 270 Air Max DN'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20models%20price%20range%20popularity%202025%20Air%20Max%2090%20Air%20Max%20270%20Air%20Max%20DN%20price%20retail%20cost%20MSRP 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+price+retail+cost+MSRP&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+price+retail+cost+MSRP&source=web 429
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+price+retail+cost+MSRP 403
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+price+retail+cost+MSRP&pq=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+price+retail+cost+MSRP&cc=en 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+availability+stock+inventory&source=web 429
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20models%20price%20range%20popularity%202025%20Air%20Max%2090%20Air%20Max%20270%20Air%20Max%20DN%20availability%20stock%20inventory 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+availability+stock+inventory&pq=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+availability+stock+inventory&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20models%20price%20range%20popularity%202025%20Air%20Max%2090%20Air%20Max%20270%20Air%20Max%20DN%20popularity%20trends%20demand%202025 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_663768a7-2eea-496b-9408-26686fd1902c 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+popularity+trends+demand+2025&source=web 429
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+models+price+range+popularity+2025+Air+Max+90+Air+Max+270+Air+Max+DN+popularity+trends+demand+2025&web=1&searchid=7734889 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_product_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<8>, max_attempts=<6>, current_attempt=<2> | throttling exception encountered | delaying before next retry
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_sentiment_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.event_loop.event_loop:retry_delay_seconds=<64>, max_attempts=<6>, current_attempt=<5> | throttling exception encountered | delaying before next retry
+INFO:agents:✅ Product agent completed successfully
+Multi-Agent E-commerce Analysis System with Executive Dashboard
+=============================================================
+Analyzing: Nike AirMax
+Mode: Full featured
+Dashboard: Executive BI dashboard will be generated
+I'll analyze the product data for Nike Air Max sneakers for you. Let me search for the relevant information about pricing, availability, and popularity.
+Tool #1: advanced_product_search
+I'll analyze customer sentiment for Nike Air Max sneakers. Let me searchI'll analyze the competitive landscape for Nike Air for relevant customer reviews and feedback. Max sneakers. Let me search for relevant information about competitors and market positioning.
+Tool #1: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/product_search_20250829_140609.json
+
+Tool #1: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_140612.json
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_140612.json
+Let me search for more specific information about Nike Air Max pricing and popularity:
+Tool #2: advanced_product_search
+Search data saved to: /Users/orchidee/Documents/data/product_search_20250829_140619.json
+Let me search for more specific customer reviews and feedback about Nike Air Max sneakers.
+Tool #2: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_140630.json
+Let me search for more specific information about different Nike Air Max models and their reviews.
+Tool #3: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_140643.json
+Let me try one more search to get more specific information about Nike Air Max reviews.
+Tool #4: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_140659.json
+Let me try one more specific search to get better information about Nike Air Max reviews.
+Tool #5: advanced_sentiment_search
+Search data saved to: /Users/orchidee/Documents/data/sentiment_search_20250829_140713.json
+Let me search for more specific information about Nike Air Max models and their popularity:
+Tool #3: advanced_product_search
+Search data saved to: /Users/orchidee/Documents/data/product_search_20250829_140728.json
+Based on the search results, I'll analyze the product data for Nike Air Max sneakers:
+
+```json
+{
+  "product_name": "Nike Air Max Sneakers",
+  "price_analysis": {
+    "current_price": "$160-$220 (varies by model)",
+    "price_trend": "stable with premium pricing for newer models",
+    "price_comparison": "mid-to-high range for athletic footwear, with Air Max DN8 at $200 representing premium tier"
+  },
+  "availability": {
+    "stock_status": "widely available",
+    "availability_trend": "Regular releases of new colorways and models maintain consistent availability across retailers"
+  },
+  "popularity_metrics": {
+    "popularity_score": 85,
+    "search_volume_trend": "increasing for newer models like Air Max DN/DN8",
+    "demand_indicators": ["Annual Air Max Day celebrations", "Consistent new model releases", "High-profile collaborations with brands like LEGO"]
+  },
+  "data_sources": ["Nike.com", "StockX", "Foot Locker", "Famous Footwear", "Highsnobiety", "SneakerNews"],
+  "confidence_level": "high"
+}
+```
+
+### Key Insights:
+
+1. **Pricing Structure**:
+   - Nike Air Max sneakers span a wide price range, typically between $160-$220 retail
+   - The newest flagship model, Air Max DN8, is priced at $200
+   - Air Max 90 models are generally more affordable, with some on sale for under $100
+   - Premium collaborations and special editions command higher prices
+   - Nike has historically been willing to test price barriers with their premium sneaker lines
+
+2. **Availability Trends**:
+   - Nike Air Max sneakers are widely available across multiple retail channels
+   - The line includes numerous models (Air Max 90, Air Max 270, Air Max DN/DN8, etc.)
+   - Nike maintains consistent inventory through regular releases of new colorways
+   - Special editions and collaborations (like the LEGO x Air Max DN) may have more limited availability
+   - Products are distributed through Nike's own channels as well as major footwear retailers
+
+3. **Popularity Analysis**:
+   - The Air Max line remains one of Nike's flagship sneaker collections since its introduction in 1987
+   - Nike celebrates "Air Max Day" annually (March 26th), highlighting the cultural significance of the line
+   - The newest Air Max DN8 model was introduced for Air Max Day 2025, showing continued innovation
+   - Air Max 90 continues to be a popular retro model with regular re-releases and new colorways
+   - The line appeals to both performance-focused consumers and sneaker collectors/enthusiasts
+
+4. **Market Position**:
+   - Air Max represents Nike's premium air cushioning technology and heritage
+   - The line spans multiple use cases from performance running to lifestyle wear
+   - Nike continues to invest in the Air Max brand through technological innovation (Dynamic Air in the DN models)
+   - High-profile collaborations (like LEGO) maintain cultural relevance and appeal to new audiences
+   - The diverse price points allow Nike to target different market segments with the same technology platform
+
+The Nike Air Max line continues to be a cornerstone of Nike's footwear portfolio in 2025, with the company balancing heritageBased on the customer reviews an models like the Air Max 90 with innovative new releases like thed sentiment Air Max DN8. The consistent data I've investment in the line through gathered, here's my analysis of Nike Air Max sneakers:
+
+```json new technologies, collaborations, and marketing events like Air Max Day demonstrates
+{
+  "sentiment_overview": {
+    "overall its ongoing importance to Nike's bran_sentiment": 7d strategy and market position.2,
+    ".sentiment_trend": "stable",
+    "review_volume": "High volume of reviews across multiple platforms"
+  },
+  "positive_sentiment": {
+    "score": 8.5,
+    "key_themes": ["Style/Aesthetics", "Air cushioning technology", "Variety of models", "Brand reputation", "Versatility"],
+    "customer_praise": ["They're the most comfortable shoe I have ever worn!", "Great nike quality very durable, nice style", "Solid support with the right amount of cushioning for an everyday shoe"]
+  },
+  "negative_sentiment": {
+    "score": 5.8,
+    "key_issues": ["Durability concerns", "Inconsistent sizing", "Price point", "Comfort varies by model", "Quality control"],
+    "customer_complaints": ["The last two pairs of shoes i bought fell apart after a couple weeks", "These shoes are very hard in the footbed", "While some people swear by them, they're really uncomfortable for others due to the heel to toe drop"]
+  },
+  "sentiment_drivers": {
+    "satisfaction_factors": ["Visual appeal", "Air cushioning technology", "Brand recognition", "Variety of colorways", "Lightweight design"],
+    "dissatisfaction_factors": ["Quality inconsistencies", "High price for some models", "Sizing inconsistencies", "Comfort issues in specific models", "Durability problems"]
+  },
+  "actionable_insights": [
+    "Address quality control issues mentioned in multiple reviews",
+    "Improve consistency in sizing across models",
+    "Enhance durability of materials in problem areas",
+    "Consider price-to-quality ratio in customer perception",
+    "Focus on comfort improvements in models with lower ratings"
+  ],
+  "data_sources": [
+    "RunRepeat laboratory tests and reviews",
+    "Reddit user discussions",
+    "Zappos customer reviews",
+    "Walmart verified purchases",
+    "Quora user experiences",
+    "Lemon8 user reviews",
+    "Consumer Affairs customer feedback",
+    "WalkJogRun performance testing"
+  ]
+}
+```
+
+## Key Findings:
+
+The Nike Air Max line receives generally positive sentiment with significant variation across different models. Analysis of customer feedback reveals these sneakers are primarily valued for their distinctive style and visual appeal, with the visible Air cushioning technology being both a design highlight and functional feature.
+
+### Model-Specific Insights:
+
+1. **Air Max 270**: Receives mixeINFO:agents:✅ Sentiment agent completed successfully
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_ToNX-AqZRlGZU5vRt_PTJQ', 'name': 'advanced_competitor_search', 'input': {'query': 'Nike Air Max market share competitors Adidas New Balance Asics sales performance 2024'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20share%20competitors%20Adidas%20New%20Balance%20Asics%20sales%20performance%202024%20vs%20competitors%20comparison 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+vs+competitors+comparison&source=web 429
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+vs+competitors+comparison&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+vs+competitors+comparison 403
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f81c663e-6e97-4c6e-a581-de83df41f36d 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+vs+competitors+comparison&pq=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+vs+competitors+comparison&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20share%20competitors%20Adidas%20New%20Balance%20Asics%20sales%20performance%202024%20market%20share%20analysis%202025 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+market+share+analysis+2025&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20share%20competitors%20Adidas%20New%20Balance%20Asics%20sales%20performance%202024%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+market+share+competitors+Adidas+New+Balance+Asics+sales+performance+2024+competitive+landscape+sneaker+market&web=1&searchid=5302328 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_OEAv-6yiT--cIiddOL9__g', 'name': 'advanced_competitor_search', 'input': {'query': 'Nike Air Max sales figures revenue growth market performance 2023 2024'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sales+figures+revenue+growth+market+performance+2023+2024+vs+competitors+comparison&pq=Nike+Air+Max+sales+figures+revenue+growth+market+performance+2023+2024+vs+competitors+comparison&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sales%20figures%20revenue%20growth%20market%20performance%202023%202024%20vs%20competitors%20comparison 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sales%20figures%20revenue%20growth%20market%20performance%202023%202024%20market%20share%20analysis%202025 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+sales+figures+revenue+growth+market+performance+2023+2024+market+share+analysis+2025&web=1&searchid=6347745 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+sales+figures+revenue+growth+market+performance+2023+2024+competitive+landscape+sneaker+market&pq=Nike+Air+Max+sales+figures+revenue+growth+market+performance+2023+2024+competitive+landscape+sneaker+market&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20sales%20figures%20revenue%20growth%20market%20performance%202023%202024%20competitive%20landscape%20sneaker%20market 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_BbuqldGwQuWgX4yZWj_CEg', 'name': 'advanced_competitor_search', 'input': {'query': 'Nike Air Max market position competitors Adidas Asics New Balance athletic footwear industry'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20position%20competitors%20Adidas%20Asics%20New%20Balance%20athletic%20footwear%20industry%20vs%20competitors%20comparison 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+vs+competitors+comparison&web=1&searchid=1511510 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20position%20competitors%20Adidas%20Asics%20New%20Balance%20athletic%20footwear%20industry%20market%20share%20analysis%202025 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+market+share+analysis+2025 403
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+market+share+analysis+2025&pq=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+market+share+analysis+2025&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20position%20competitors%20Adidas%20Asics%20New%20Balance%20athletic%20footwear%20industry%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+competitive+landscape+sneaker+market&source=web 429
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9ea5eb57-ac02-4376-8c2a-80314e1f4d69 200
+INFO:primp:response: https://www.google.com/search?q=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+competitive+landscape+sneaker+market&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2RsSfC9csYxWj95bZmV2zug_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-US&lr=lang_en&cr=countryUS 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+competitive+landscape+sneaker+market 403
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+market+position+competitors+Adidas+Asics+New+Balance+athletic+footwear+industry+competitive+landscape+sneaker+market&web=1&searchid=8670085 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_eJiFjNYiRM2SxjEQTQynJA', 'name': 'advanced_competitor_search', 'input': {'query': 'Nike Air Max market share revenue performance compared to competitors 2024 2025'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20share%20revenue%20performance%20compared%20to%20competitors%202024%202025%20vs%20competitors%20comparison 200
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ae95a7ca-0484-4d54-a2c4-6c7bf29f9e1f 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+vs+competitors+comparison&pq=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+vs+competitors+comparison&cc=en 200
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20share%20revenue%20performance%20compared%20to%20competitors%202024%202025%20market%20share%20analysis%202025 200
+INFO:primp:response: https://www.mojeek.com/search?q=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+market+share+analysis+2025 403
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+market+share+analysis+2025&source=web 429
+INFO:primp:response: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_669ebfd3-5581-4a88-919a-04ce611b212e 200
+INFO:primp:response: https://yandex.com/search/site/?text=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+market+share+analysis+2025&web=1&searchid=7115867 200
+INFO:primp:response: https://search.brave.com/search?q=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+competitive+landscape+sneaker+market&source=web 429
+INFO:primp:response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Nike%20Air%20Max%20market%20share%20revenue%20performance%20compared%20to%20competitors%202024%202025%20competitive%20landscape%20sneaker%20market 200
+INFO:primp:response: https://www.bing.com/search?q=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+competitive+landscape+sneaker+market&pq=Nike+Air+Max+market+share+revenue+performance+compared+to+competitors+2024+2025+competitive+landscape+sneaker+market&cc=en 200
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<advanced_competitor_search> | loaded tool config
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<2> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+INFO:agents:✅ Competitor agent completed successfully
+INFO:agents:🔄 Running orchestrator synthesis...
+DEBUG:strands.tools.registry:tool_name=<calculator>, tool_type=<function>, is_dynamic=<False> | registering tool
+DEBUG:strands.tools.registry:tools_dir=</Users/orchidee/Documents/AI-market-agent/tools> | tools directory not found
+DEBUG:strands.tools.registry:tool_modules=<[]> | discovered
+DEBUG:strands.tools.registry:tool_count=<0>, success_count=<0> | finished loading tools
+DEBUG:strands.session.repository_session_manager:agent_id=<default> | session_id=<orchestrator> | restoring agent
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_e0S0hEfWQDmLN38fykagVA', 'name': 'calculator', 'input': {'mode': 'evaluate', 'expression': '(85 + 7.2*10) / 2'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+DEBUG:strands.tools.executors._executor:tool_use=<{'toolUseId': 'tooluse_2nDhRNd2TU2SB8pf0sfKrQ', 'name': 'calculator', 'input': {'mode': 'evaluate', 'expression': '7.2 * 10'}}> | streaming
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.tools.registry:getting tool configurations
+DEBUG:strands.tools.registry:tool_name=<calculator> | loaded tool config
+DEBUG:strands.tools.registry:tool_count=<1> | tools configured
+DEBUG:strands.event_loop.streaming:model=<<strands.models.bedrock.BedrockModel object at 0x141810f40>> | streaming messages
+d reviews with strong praise for its aesthetics but divided opinions on comfort. Many users find it "extremely comfortable" with good shock absorption (measured at 107 SA in laboratory tests), while others report discomfort due to the pronounced heel-to-toe drop. The large air unit is appreciated visually but some users note it doesn't provide expected comfort for all-day wear.
+
+2. **Air Max 90**: Generally receives more consistent positive feedback for comfort and versatility. One customer noted they're "the most comfortable shoe I have ever worn" and good for "long distance walking." The classic design is frequently praised, and durability seems better than some other models.
+
+3. **Air Max 97**: Reviews indicate initial stiffness that improves with wear. As one user stated, "They were slightly stiff at first, but not small and they definitely loosened up after a few days and now they're decently comfortable."
+
+### Common Themes:
+
+The most consistent positive themes center around style and aesthetics. Nike Air Max sneakers are widely praised for their distinctive look and variety of colorways, making them popular lifestyle shoes. The Air cushioning technology is appreciated both visually and functionally by many users.
+
+However, there are notable concerns around durability and quality control. Multiple reviews mention issues with shoes "falling apart" prematurely or showing signs of wear quickly. As one customer stated, "1 pair has rubber sole falling apart and letting go, the other is good. Nike refuses to do anything about it."
+
+Sizing inconsistency is another common complaint, with customers noting that even the "SAME exact shoes are a half to full size off from what I ordered." This creates frustration and return issues for online shoppers.
+
+Price is a polarizing factor - while some customers feel the style and comfort justify the premium price, others question the value given the durability concerns. The perception of value seems to vary significantly by model and individual experience.
+
+Overall, Nike Air Max sneakers maintain strong popularity despite the mixed reviews, primarily driven by their iconic design and brand reputation. Customers who prioritize style and the distinctive Air Max aesthetic tend to be most satisfied, while those seeking primarily comfort or durability may have more varied experiences depending on the specific model.Let me search for more specific information about Nike Air Max's market position and competitors.
+Tool #2: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_140909.json
+Let me search for more specific information about Nike Air Max's market position and performance.
+Tool #3: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_140917.json
+Let me search for more specific information about Nike Air Max's market position and competitors.
+Tool #4: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_140929.json
+Let me try one more search to get more specific information about Nike Air Max's market position.
+Tool #5: advanced_competitor_search
+Search data saved to: /Users/orchidee/Documents/data/competitor_search_20250829_140939.json
+Based on the information gathered, here's a comprehensive competitive analysis for Nike Air Max sneakers:
+
+```json
+{
+  "competitor_landscape": {
+    "primary_competitors": ["Adidas", "New Balance", "Asics", "Puma", "On Running", "Hoka"],
+    "market_positioning": "Nike Air Max is positioned as a premium athletic lifestyle sneaker line with strong heritage value, combining innovative cushioning technology with fashion-forward design that bridges performance and casual wear markets",
+    "competitive_advantages": [
+      "Iconic visible Air cushioning technology that has defined the line since 1987",
+      "Strong brand recognition and heritage within sneaker culture",
+      "Diverse product range spanning multiple price points and design aesthetics",
+      "Powerful marketing and celebrity endorsements",
+      "Extensive distribution network and global reach"
+    ],
+    "competitive_threats": [
+      "Increasing competition from emerging brands like On Running and Hoka",
+      "Adidas gaining market share, particularly in key markets like China",
+      "New Balance's growing popularity in the lifestyle segment",
+      "Asics showing significant growth (reported 600% year-over-year growth)",
+      "Potential market saturation in the athletic lifestyle category"
+    ]
+  },
+  "market_trends": {
+    "current_trends": [
+      "Growing consumer preference for retro and heritage sneaker styles",
+      "Increasing crossover between performance and lifestyle categories",
+      "Rising importance of sustainability in consumer purchasing decisions",
+      "Shift toward direct-to-consumer sales channels",
+      "Increasing influence of collaborations and limited editions"
+    ],
+    "trend_direction": "growing",
+    "market_dynamics": "The global sneakers market was valued at USD 89.84 billion in 2024 and is expected to grow to USD 157.02 billion by 2033. The athletic footwear market specifically was valued at USD 131.1 billion in 2024 and is estimated to grow at a CAGR of over 5% from 2025 to 2034. Nike remains the market leader but is facing increased competition."
+  },
+  "market_share_analysis": {
+    "estimated_share": "Nike holds approximately 24-28% of the global sneaker market, maintaining its position as the market leader despite recent challenges. The Air Max line continues to be a significant contributor to Nike's footwear revenue, though specific figures for the Air Max line are not available",
+    "share_trend": "declining slightly",
+    "growth_opportunities": [
+      "Expanding the Air Max line with innovative new models like the Air Max DN",
+      "Leveraging heritage designs through strategic reissues and updates",
+      "Strengthening direct-to-consumer channels to improve margins",
+      "Expanding into emerging markets with growing sneaker culture",
+      "Developing sustainable versions of Air Max models to appeal to environmentally conscious consumers"
+    ]
+  },
+  "strategic_insights": [
+    "Nike needs to balance innovation with heritage to maintain the Air Max line's relevance",
+    "The company should address the growing competition from challenger brands that are gaining market share",
+    "Nike's market share has declined from 15.2% to 14.1% while Adidas has increased from 8.2% to 8.9%, indicating a need for strategic repositioning",
+    "The Air Max line's transition from performance to lifestyle provides opportunities for premium positioning and higher margins",
+    "Nike should leverage the Air Max's strong cultural cachet to maintain its position in the increasingly competitive sneaker market"
+  ],
+  "data_sources": [
+    "Future Market Insights market analysis",
+    "Grand View Research industry reports",
+    "Market Data Forecast market projections",
+    "StockX market trend analysis",
+    "GM Insights athletic footwear market report",
+    "Statista brand rankings",
+    "GQ sneaker brand analysis",
+    "Jing Daily market insights"
+  ]
+}
+```I'll synthesize these specialist findings into a comprehensive strategic analysis. First, I need to calculate some values for the KPI dashboard.
+Tool #1: calculator
+
+Tool #2: calculator
+{
+  "executive_summary": "Nike Air Max sneakers maintain strong market presence with high popularity (85/100) despite facing increased competition and slight market share decline (from 15.2% to 14.1%). The product line benefits from iconic Air cushioning technology, strong brand recognition, and diverse product range, while facing challenges including quality inconsistencies, durability concerns, and rising competition from brands like Adidas, On Running, and Hoka. Strategic opportunities exist in balancing innovation with heritage designs, addressing quality control issues, and strengthening direct-to-consumer channels to improve margins and market position.",
+  "consolidated_insights": {
+    "product_performance": {
+      "price_range": "$160-$220INFO:agents:✅ Orchestrator synthesis completed
+INFO:agents:✅ Orchestrated analysis completed successfully
+INFO:agents:Session context for 'session-20250829-140602' detached
+INFO:__main__:Analysis results saved to: /Users/orchidee/Documents/results/analysis_result_Nike_AirMax_20250829_141046.json
+INFO:__main__:Generating executive dashboard...
+INFO:__main__:Executive dashboard saved to: /Users/orchidee/Documents/results/executive_dashboard_Nike_AirMax_20250829.html
+INFO:__main__:Opening executive dashboard in browser...
+ (varies by model)",
+      "availability": "Widely available with regular releases of new colorways and models",
+      "popularity_score": 85,
+      "search_trend": "Increasing for newer models like Air Max DN/DN8",
+      "key_strengths": [
+        "Iconic visible Air cushioning technology since 1987",
+        "Annual Air Max Day celebrations driving engagement",
+        "Consistent new model releases",
+        "High-profile collaborations with brands like LEGO",
+        "Strong brand recognition and heritage"
+      ]
+    },
+    "competitive_position": {
+      "market_share_trend": "Declining slightly (Nike's share fell from 15.2% to 14.1% while Adidas increased from 8.2% to 8.9%)",
+      "primary_competitors": ["Adidas", "New Balance", "Asics", "Puma", "On Running", "Hoka"],
+      "competitive_advantages": [
+        "Iconic visible Air cushioning technology",
+        "Strong brand recognition and heritage within sneaker culture",
+        "Diverse product range spanning multiple price points",
+        "Powerful marketing and celebrity endorsements",
+        "Extensive distribution network and global reach"
+      ],
+      "market_trends": [
+        "Growing consumer preference for retro and heritage sneaker styles",
+        "Increasing crossover between performance and lifestyle categories",
+        "Rising importance of sustainability in purchasing decisions",
+        "Shift toward direct-to-consumer sales channels",
+        "Increasing influence of collaborations and limited editions"
+      ]
+    },
+    "customer_experience": {
+      "overall_sentiment": 7.2,
+      "sentiment_trend": "Stable",
+      "key_satisfaction_drivers": [
+        "Visual appeal and aesthetics",
+        "Air cushioning technology",
+        "Brand recognition",
+        "Variety of colorways",
+        "Lightweight design"
+      ],
+      "key_dissatisfaction_factors": [
+        "Quality inconsistencies",
+        "High price for some models",
+        "Sizing inconsistencies",
+        "Comfort issues in specific models",
+        "Durability problems"
+      ]
+    }
+  },
+  "strategic_recommendations": [
+    {
+      "priority": "High",
+      "category": "Product Quality",
+      "recommendation": "Implement enhanced quality control measures focusing on durability and construction",
+      "rationale": "Addressing the most common customer complaints about durability and quality inconsistencies",
+      "expected_impact": "Improved customer satisfaction, reduced returns, and strengthened brand reputation"
+    },
+    {
+      "priority": "High",
+      "category": "Product Development",
+      "recommendation": "Balance innovation with heritage by developing new models that incorporate classic Air Max design elements",
+      "rationale": "Leveraging the line's strong heritage while meeting consumer demand for innovation",
+      "expected_impact": "Maintained relevance across both heritage and innovation-seeking consumer segments"
+    },
+    {
+      "priority": "Medium",
+      "category": "Marketing",
+      "recommendation": "Develop sustainability-focused Air Max models with eco-friendly materials",
+      "rationale": "Addressing the growing consumer preference for sustainable products",
+      "expected_impact": "Expanded appeal to environmentally conscious consumers and positive brand perception"
+    },
+    {
+      "priority": "Medium",
+      "category": "Distribution",
+      "recommendation": "Strengthen direct-to-consumer channels through enhanced online experience and exclusive offerings",
+      "rationale": "Capitalizing on the shift toward direct-to-consumer sales to improve margins",
+      "expected_impact": "Increased profit margins and stronger customer relationships"
+    },
+    {
+      "priority": "Low",
+      "category": "Product Line",
+      "recommendation": "Standardize sizing across Air Max models to improve consistency",
+      "rationale": "Addressing customer complaints about inconsistent sizing between models",
+      "expected_impact": "Reduced returns, improved customer satisfaction, and increased repeat purchases"
+    }
+  ],
+  "kpi_dashboard": {
+    "overall_market_score": 78,
+    "competitive_strength": 82,
+    "customer_satisfaction": 72,
+    "growth_potential": 75
+  },
+  "risk_assessment": [
+    "Continued market share erosion to emerging competitors",
+    "Potential damage to brand reputation from quality and durability issues",
+    "Market saturation in the athletic lifestyle category",
+    "Price sensitivity in key consumer segments",
+    "Failure to effectively balance heritage with innovation"
+  ],
+  "next_actions": [
+    "Conduct comprehensive quality audit across Air Max production facilities",
+    "Develop prototype for sustainable Air Max model using eco-friendly materials",
+    "Implement standardized sizing guidelines across the Air Max product line",
+    "Enhance direct-to-consumer digital experience with personalization features",
+    "Launch targeted marketing campaign highlighting Air Max heritage and innovation"
+  ]
+}
+================================================================================
+MULTI-AGENT E-COMMERCE ANALYSIS SUMMARY
+================================================================================
+Product Analyzed: Nike AirMax
+Analysis Date: 2025-08-29T14:10:46.184996
+Session ID: session-20250829-140602
+
+Execution Status:
+  Agents Completed: 3/3
+  Orchestration: Success
+  Telemetry: Enabled (Context: Set)
+
+Business Metrics:
+  Overall Market Score: 78/100
+  Customer Satisfaction: 72/100
+  Competitive Strength: 82/100
+  Growth Potential: 75/100
+
+Agent Results:
+  Product: Success
+    - Price: $160-$220 (varies by model) | Popularity: 85/100
+  Sentiment: Success
+    - Customer Sentiment: 7.2/10
+  Competitor: Success
+    - Top Competitors: Adidas, New Balance, Asics
+
+Top Strategic Recommendations:
+    1. [High] Implement enhanced quality control measures focusing on durability and construct...
+    2. [High] Balance innovation with heritage by developing new models that incorporate class...
+    3. [Medium] Develop sustainability-focused Air Max models with eco-friendly materials...
+
+================================================================================
+Analysis completed with 100.0% agent success rate
+Results saved to: /Users/orchidee/Documents/results/analysis_result_Nike_AirMax_20250829_141046.json
+Executive dashboard: /Users/orchidee/Documents/results/executive_dashboard_Nike_AirMax_20250829.html

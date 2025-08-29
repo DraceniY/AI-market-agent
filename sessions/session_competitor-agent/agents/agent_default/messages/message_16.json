@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_txuHsPsETjSdnB6fKnlOuA",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: Adidas targets larger US market share as Nike struggles\nContent: Feb 28, 2025 — Adidas' market share increased to 8.9% from 8.2 %, and other gainers included New Balance, On Running, and Hoka. Market share of global ...\nSource: https://www.reuters.com/business/retail-consumer/adidas-targets-larger-us-market-share-nike-struggles-2025-02-28/\n\nCOMPETITOR ANALYSIS 2:\nTitle: Sneakers Market By Size, Share and Forecast 2030F\nContent: The global Sneakers Market was valued at USD 88.91 Billion in 2024 and is expected to reach USD 135.42 Billion by 2030 with a CAGR of 7.32% during the ...\nSource: https://www.techsciresearch.com/report/sneakers-market/4002.html\n\nCOMPETITOR ANALYSIS 3:\nTitle: Adidas vs Nike: Business Model Comparison, Revenue ...\nContent: Sep 24, 2024 — Market Capitalization: As of the latest figures, Nike's market capitalization stands at approximately $129.240 billion , comfortably outpacing ...\nSource: https://businessmodelanalyst.com/adidas-vs-nike/?srsltid=AfmBOooIEUh1IkUDW02qgP-xldjMtHO1RVmk0J4ydIGR0R6z09pkfPVs\n\nCOMPETITOR ANALYSIS 4:\nTitle: Adidas Target Market\nContent: Jul 1, 2025 — Adidas' target market spans the footwear, apparel, and sports equipment niches . It is among the top ten largest clothing brands worldwide.\nSource: https://bstrategyhub.com/adidas-target-market/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 16,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:47:14.430090+00:00",
+  "updated_at": "2025-08-27T21:47:14.430095+00:00"
+}

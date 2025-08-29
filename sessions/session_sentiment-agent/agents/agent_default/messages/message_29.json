@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for more specific information about customer ratings and overall sentiment."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_jw2e1YcuQuOiGrUVP_zo0Q",
+          "name": "advanced_sentiment_search",
+          "input": {
+            "query": "Adidas Gazelle sneakers customer ratings reviews quality"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 29,
+  "redact_message": null,
+  "created_at": "2025-08-29T16:34:48.934850+00:00",
+  "updated_at": "2025-08-29T16:34:48.934860+00:00"
+}

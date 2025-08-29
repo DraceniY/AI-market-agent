@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for more specific information about Nike Air Max models and their popularity:"
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_4RXjBvZwR-aX16z15JEKsA",
+          "name": "advanced_product_search",
+          "input": {
+            "query": "Nike Air Max models price range popularity 2025 Air Max 90 Air Max 270 Air Max DN"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 37,
+  "redact_message": null,
+  "created_at": "2025-08-29T18:07:24.021773+00:00",
+  "updated_at": "2025-08-29T18:07:24.021779+00:00"
+}

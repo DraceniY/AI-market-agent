@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_-JOUcoNpQYKwUgwJ6kbn8Q",
+          "status": "success",
+          "content": [
+            {
+              "text": "CUSTOMER FEEDBACK 1:\nTitle: Adidas Online Reviews 389\nContent: Most reviewers were let down by their experience overall . Customers express significant dissatisfaction with the company's customer service, ...\nSource: https://www.trustpilot.com/review/www.adidas-online.com?page=9\n\nCUSTOMER FEEDBACK 2:\nTitle: Why I Can't Stand Adidas: A Closer Look\nContent: One of the major complaints about Adidas products is their inability to maintain cleanliness and freshness , as they often lack washable options.\nSource: https://www.lemon8-app.com/laurenhitcell/7431743674712982021?region=us\n\nCUSTOMER FEEDBACK 3:\nTitle: Adidas just committed a massive social media fail\nContent: May 9, 2024 — The TikTokker Mengyan Yu posted a video in which she said that the popular Adidas Samba sneakers looked cute but were cutting her heel.\nSource: https://www.creativebloq.com/news/adidas-samba-trainers\n\nCUSTOMER FEEDBACK 4:\nTitle: Why the Adidas Samba Shoe Is Still Kicking | by Bella Wei\nContent: Let's look at some of the negative comments (there are few, only 98 out of 1005) to see what Adidas can do better. Adidas Samba shoes - Negative ...\nSource: https://medium.com/@Stratifyd/why-the-adidas-samba-shoe-is-still-kicking-8b679b2182e5\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 6,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:28:36.515053+00:00",
+  "updated_at": "2025-08-27T21:28:36.515058+00:00"
+}

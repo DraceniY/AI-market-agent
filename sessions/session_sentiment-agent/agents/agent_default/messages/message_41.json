@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me try one more specific search to get better information about customer reviews."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_6rNyVVvWQBKElULLfLmtFQ",
+          "name": "advanced_sentiment_search",
+          "input": {
+            "query": "Adidas Samba sneakers customer reviews comfort break-in period heel pain"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 41,
+  "redact_message": null,
+  "created_at": "2025-08-29T17:43:57.548983+00:00",
+  "updated_at": "2025-08-29T17:43:57.548990+00:00"
+}

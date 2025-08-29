@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_yO-VA3mvRuKoBUf8hGc1lQ",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: Top 10 Nike Competitors in 2025\nContent: Nike Competitor Crossword. Nike similar companies: lululemon athletica, VF Corporation, Under Armour, Adidas , Reebok, PUMA, Skechers, New Balance, FILA, ASICS and Anta. Nike obtains its income through the design, manufacture and sale of footwear, clothing and sports...\nSource: https://whatcompetitors.com/nike/\n\nCOMPETITOR ANALYSIS 2:\nTitle: Adidas Gains Market Share from Nike , But Must Tread... - EconoTimes\nContent: As Adidas capitalizes on the growing popularity of its Samba and Gazelle shoes, the brand is gaining market share from rival Nike . However, analysts caution that the trends longevity may wane, urging Adidas to manage its...\nSource: https://econotimes.com/Adidas-Gains-Market-Share-from-Nike-But-Must-Tread-Carefully-with-Sambas-Popularity-1689879\n\nCOMPETITOR ANALYSIS 3:\nTitle: Nike Competitor Analysis - The Strategy Story\nContent: Here is the competitor analysis of Nike . Conducting a competitor analysis for Nike involves examining the major sportswear and athletic gear market companies that offer similar products or services. Here’s how you might analyze Nike ’s key competitors\nSource: https://thestrategystory.com/blog/nike-competitor-analysis/\n\nCOMPETITOR ANALYSIS 4:\nTitle: Top 20 Nike Competitors & Alternatives | Business Strategy Hub\nContent: The top NIKE competitors and alternatives include Adidas , Puma, Reebok & many more.Even though New Balance still trails Nike with 43% of the market share and Adidas at 22%, its recent focus on the sector can help increase its share in 2021 and beyond. 3. Puma.\nSource: https://bstrategyhub.com/top-nike-competitors-alternatives/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 26,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:49:01.433511+00:00",
+  "updated_at": "2025-08-27T21:49:01.433515+00:00"
+}

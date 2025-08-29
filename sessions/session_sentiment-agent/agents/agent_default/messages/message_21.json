@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me search for one more aspect to get a comprehensive view of customer sentiment."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_8BLY-K9yTku95zbVzZhcpg",
+          "name": "sentiment_analysis_search",
+          "input": {
+            "query": "Adidas Samba sneakers style versatility popularity trend"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 21,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:50:02.614389+00:00",
+  "updated_at": "2025-08-27T21:50:02.614394+00:00"
+}

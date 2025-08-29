@@ -1,0 +1,14 @@
+strands-agents[otel]
+strands-agents-tools
+boto3
+botocore
+duckduckgo-search
+
+# OpenTelemetry this will be functional after the release of this project !!!!!
+aws-opentelemetry-distro~=0.10.1
+python-dotenv
+
+
+# test
+pytest>=7.4.0
+pytest-asyncio>=0.21.0

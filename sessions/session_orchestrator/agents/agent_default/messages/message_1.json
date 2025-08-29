@@ -1,0 +1,24 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll synthesize these specialist findings into a comprehensive strategic analysis. First, I need to calculate some values for the KPI dashboard."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_oCw19D0QSICgVDzibdgPIA",
+          "name": "calculator",
+          "input": {
+            "expression": "(85 + 8.5*10) / 2",
+            "mode": "evaluate"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 1,
+  "redact_message": null,
+  "created_at": "2025-08-29T16:36:38.611839+00:00",
+  "updated_at": "2025-08-29T16:36:38.611845+00:00"
+}

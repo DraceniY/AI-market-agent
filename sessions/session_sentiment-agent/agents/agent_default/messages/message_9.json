@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me try one more search to get more specific customer feedback about Adidas Samba sneakers."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_D7isZVLlSLqWIHI-aD_Bcg",
+          "name": "sentiment_analysis_search",
+          "input": {
+            "query": "Adidas Samba sneakers customer reviews quality comfort style price"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 9,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:29:45.765748+00:00",
+  "updated_at": "2025-08-27T21:29:45.765754+00:00"
+}

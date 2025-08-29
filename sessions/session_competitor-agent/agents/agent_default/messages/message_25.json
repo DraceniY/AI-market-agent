@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Let me try one more search to get specific information about the Adidas Samba's market position."
+      },
+      {
+        "toolUse": {
+          "toolUseId": "tooluse_yO-VA3mvRuKoBUf8hGc1lQ",
+          "name": "competitor_analysis_search",
+          "input": {
+            "query": "Adidas Samba popularity resurgence market analysis competitors Nike"
+          }
+        }
+      }
+    ]
+  },
+  "message_id": 25,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:48:59.749547+00:00",
+  "updated_at": "2025-08-27T21:48:59.749552+00:00"
+}

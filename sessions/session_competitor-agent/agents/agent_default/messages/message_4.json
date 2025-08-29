@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_tu1LxTOXRVOQufM9olgDBg",
+          "status": "success",
+          "content": [
+            {
+              "text": "COMPETITOR ANALYSIS 1:\nTitle: How Adidas, Hoka and On Can Grab Nike's Market Share as it\nContent: ... Nike , it ’ s a tough situation where you have to finally reset your brand over the next year and try to do product refreshes while there are new ...\nSource: https://footwearnews.com/business/business-news/nike-market-share-adidas-hoka-on-analysis-1203663519/\n\nCOMPETITOR ANALYSIS 2:\nTitle: Nike's Field General Revival Draws Comparisons to the\nContent: February will see the first-ever reissue of a Nike shoe many sneakerheads are already predicting will be a rival to the Adidas Samba .\nSource: https://footwearnews.com/shoes/sneaker-news/nike-field-general-white-red-release-date-february-2024-1203583118/\n\nCOMPETITOR ANALYSIS 3:\nTitle: Top Sneakers Releasing in February 2024 Calendar: Read Before\nContent: The Nike Field General, which many are already billing as an Adidas Samba competitor , is coming back for the first time since the ’ 80s near ...\nSource: https://footwearnews.com/shoes/sneaker-news/sneaker-release-date-calendar-february-2024-1203584091/\n\nCOMPETITOR ANALYSIS 4:\nTitle: The Sneaker Resale Market Is Broken | BoF\nContent: While retro sneakers make up the bulk of primary and secondary market sneaker sales — the top-selling brands on GOAT in 2023 were still Nike and ...\nSource: https://www.businessoffashion.com/articles/sports/the-sneaker-resale-market-is-broken/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 4,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:26:45.115162+00:00",
+  "updated_at": "2025-08-27T21:26:45.115170+00:00"
+}

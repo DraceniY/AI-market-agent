@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "tooluse_srdGORBYThy0dY7HcI9k1Q",
+          "status": "success",
+          "content": [
+            {
+              "text": "PRODUCT DATA 1:\nTitle: adidas Samba | Designer Sneakers for Men | FARFETCH\nContent: Discover the adidas Samba on FARFETCH. Shop Samba OG sneakers in black, white & pink. Enjoy courier returns across Sporty & Rich blue pairs today.\nSource: https://www.Farfetch.com/mc/sets/adidas-samba.aspx\n\nPRODUCT DATA 2:\nTitle: Samba Shoes | adidas US\nContent: Price $100. Samba OG Shoes.What are adidas Sambas shoes for? The adidas Samba is a soccer shoe first introduced in 1950, designed for training, futsal and street soccer. Its gum rubber outsole with pivot points offers great traction for nimble movements.\nSource: https://www.adidas.com/us/samba\n\nPRODUCT DATA 3:\nTitle: Sneakers and Activewear | adidas Canada\nContent: Find your style with sneakers and workout clothes from adidas . Explore bold designs and casual favourites that support fitness and everyday wear.\nSource: https://www.adidas.ca/\n"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "message_id": 18,
+  "redact_message": null,
+  "created_at": "2025-08-27T21:46:44.242610+00:00",
+  "updated_at": "2025-08-27T21:46:44.242616+00:00"
+}
